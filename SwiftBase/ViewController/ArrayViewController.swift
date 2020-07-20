@@ -43,6 +43,7 @@ class ArrayViewController: UIViewController {
         // shoppingList 现在有七项了
          print("shoppingList:",shoppingList);
         
+        //我们可以使用for-in循环来遍历所有数组中的数据项
         for item in shoppingList {
             print(item)
         }
