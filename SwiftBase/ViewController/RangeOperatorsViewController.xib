@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RangeOperatorsViewController" customModule="SwiftPlayground" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eqd-Cc-Vit">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <attributedString key="attributedText">
+                        <fragment content="闭区间运算符">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="18" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="闭区间运算符（">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="a...b">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="）定义一个包含从">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" a ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="到">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" b">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="（包括">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" a ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="和">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" b">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="）的所有值的区间。">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="a ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="的值不能超过">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" b">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="。">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ‌ ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="闭区间运算符在迭代一个区间的所有值时是非常有用的，如在">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" for-in ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="循环中：">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+for index in 1...5 {
+    print("\(index) * 5 = \(index * 5)")
+}
+// 1 * 5 = 5
+// 2 * 5 = 10
+// 3 * 5 = 15
+// 4 * 5 = 20
+// 5 * 5 = 25
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="关于">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" for-in">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="，请看控制流。">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="半开区间运算符">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="18" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="半开区间运算符（">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="a..&lt;b">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="）定义一个从">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" a ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="到">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" b ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="但不包括">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" b ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="的区间。">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="之所以称为半开区间，是因为该区间包含第一个值而不包括最后的值。">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="半开区间的实用性在于当你使用一个从">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" 0 ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="开始的列表（如数组）时，非常方便地从">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="0">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="数到列表的长度。">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+let names = </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="[">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="&quot;Anna&quot;, &quot;Alex&quot;, &quot;Brian&quot;, &quot;Jack&quot;">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="]">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+let count = names.count
+for i in 0..&lt;count {
+    print("</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="第">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" \(i + 1) ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="个人叫">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" \(names">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="[">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="i">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="]">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">)")
+}
+// </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="第">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" 1 ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="个人叫">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content"> Anna
+// </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="第">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" 2 ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="个人叫">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content"> Alex
+// </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="第">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" 3 ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="个人叫">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content"> Brian
+// </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="第">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" 4 ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="个人叫">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content"> Jack
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="数组有">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" 4 ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="个元素，但">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" 0..&lt;count ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="只数到">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="3">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="（最后一个元素的下标），因为它是半开区间。关于数组，请查阅数组。">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="单侧区间">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="18" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="闭区间操作符有另一个表达形式，可以表达往一侧无限延伸的区间">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" —— ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="例如，一个包含了数组从索引">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" 2 ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="到结尾的所有值的区间。在这些情况下，你可以省略掉区间操作符一侧的值。这种区间叫做单侧区间，因为操作符只有一侧有值。例如：">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+for name in names</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="[">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="2...">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="]">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content"> {
+    print(name)
+}
+// Brian
+// Jack
+
+for name in names</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="[">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="...2">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="]">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content"> {
+    print(name)
+}
+// Anna
+// Alex
+// Brian
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="半开区间操作符也有单侧表达形式，附带上它的最终值。就像你使用区间去包含一个值，最终值并不会落在区间内。例如：">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+for name in names</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="[">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="..&lt;2">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="]">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content"> {
+    print(name)
+}
+// Anna
+// Alex
+</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">单侧区间不止可以在下标里使用，也可以在别的情境下使用。你不能遍历省略了初始值的单侧区间，因为遍历的开端并不明显。你可以遍历一个省略最终值的单侧区间；然而，由于这种区间无限延伸的特性，请保证你在循环里有一个结束循环的分支。你也可以查看一个单侧区间是否包含某个特定的值，就像下面展示的那样。</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+let range = ...5
+range.contains(7)   // false
+range.contains(4)   // true
+range.contains(-1)  // true</string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="Eqd-Cc-Vit" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="5Xf-Iu-4sy"/>
+                <constraint firstItem="Eqd-Cc-Vit" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="DR5-ht-Vak"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Eqd-Cc-Vit" secondAttribute="bottom" id="IUH-U1-JJi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Eqd-Cc-Vit" secondAttribute="trailing" id="sn8-Fo-ZPf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="139" y="91"/>
+        </view>
+    </objects>
+</document>
