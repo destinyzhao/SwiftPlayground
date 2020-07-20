@@ -12,7 +12,7 @@ class SwiftBaseViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let dataArray = ["Hello, World!","区间运算符"]
+    let dataArray = ["Hello, World!","区间运算符","多行字符串字面量","数组"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,6 +49,16 @@ extension SwiftBaseViewController:UITableViewDelegate,UITableViewDataSource{
             break
         case 1:
             let pushVC = RangeOperatorsViewController()
+            pushVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(pushVC, animated: true)
+            break
+        case 2:
+            let pushVC = StringViewController()
+            pushVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(pushVC, animated: true)
+            break
+        case 3:
+            let pushVC = ArrayViewController()
             pushVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(pushVC, animated: true)
             break

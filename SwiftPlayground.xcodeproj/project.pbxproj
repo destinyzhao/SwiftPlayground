@@ -25,6 +25,10 @@
 		DEF3DCB024C5733F00D1A3A4 /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3DCAE24C5733F00D1A3A4 /* HelloWorldViewController.xib */; };
 		DEF3DCB324C586B600D1A3A4 /* RangeOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCB124C586B600D1A3A4 /* RangeOperatorsViewController.swift */; };
 		DEF3DCB424C586B600D1A3A4 /* RangeOperatorsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3DCB224C586B600D1A3A4 /* RangeOperatorsViewController.xib */; };
+		DEF3DCB724C58FE700D1A3A4 /* StringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCB524C58FE700D1A3A4 /* StringViewController.swift */; };
+		DEF3DCB824C58FE700D1A3A4 /* StringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3DCB624C58FE700D1A3A4 /* StringViewController.xib */; };
+		DEF3DCBB24C5948A00D1A3A4 /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCB924C5948A00D1A3A4 /* ArrayViewController.swift */; };
+		DEF3DCBC24C5948A00D1A3A4 /* ArrayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3DCBA24C5948A00D1A3A4 /* ArrayViewController.xib */; };
 		F3340CD5C69D830083BC27E8 /* Pods_SwiftPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2D5CA0F5D46A36B8A7C3B2 /* Pods_SwiftPlayground.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +56,10 @@
 		DEF3DCAE24C5733F00D1A3A4 /* HelloWorldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloWorldViewController.xib; sourceTree = "<group>"; };
 		DEF3DCB124C586B600D1A3A4 /* RangeOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeOperatorsViewController.swift; sourceTree = "<group>"; };
 		DEF3DCB224C586B600D1A3A4 /* RangeOperatorsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RangeOperatorsViewController.xib; sourceTree = "<group>"; };
+		DEF3DCB524C58FE700D1A3A4 /* StringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringViewController.swift; sourceTree = "<group>"; };
+		DEF3DCB624C58FE700D1A3A4 /* StringViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StringViewController.xib; sourceTree = "<group>"; };
+		DEF3DCB924C5948A00D1A3A4 /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
+		DEF3DCBA24C5948A00D1A3A4 /* ArrayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArrayViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,10 @@
 				DEF3DCAE24C5733F00D1A3A4 /* HelloWorldViewController.xib */,
 				DEF3DCB124C586B600D1A3A4 /* RangeOperatorsViewController.swift */,
 				DEF3DCB224C586B600D1A3A4 /* RangeOperatorsViewController.xib */,
+				DEF3DCB524C58FE700D1A3A4 /* StringViewController.swift */,
+				DEF3DCB624C58FE700D1A3A4 /* StringViewController.xib */,
+				DEF3DCB924C5948A00D1A3A4 /* ArrayViewController.swift */,
+				DEF3DCBA24C5948A00D1A3A4 /* ArrayViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -257,7 +269,9 @@
 				DEF3DC9924C56C6700D1A3A4 /* SwiftUIKitViewController.xib in Resources */,
 				DEF3DC7424C567E300D1A3A4 /* Main.storyboard in Resources */,
 				DEF3DC9324C56C3D00D1A3A4 /* SwiftBaseViewController.xib in Resources */,
+				DEF3DCBC24C5948A00D1A3A4 /* ArrayViewController.xib in Resources */,
 				DEF3DCB424C586B600D1A3A4 /* RangeOperatorsViewController.xib in Resources */,
+				DEF3DCB824C58FE700D1A3A4 /* StringViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,9 +332,11 @@
 				DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */,
 				DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */,
 				DEF3DCB324C586B600D1A3A4 /* RangeOperatorsViewController.swift in Sources */,
+				DEF3DCBB24C5948A00D1A3A4 /* ArrayViewController.swift in Sources */,
 				DEF3DCAA24C56D8F00D1A3A4 /* BaseViewController.swift in Sources */,
 				DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */,
 				DEF3DC9224C56C3D00D1A3A4 /* SwiftBaseViewController.swift in Sources */,
+				DEF3DCB724C58FE700D1A3A4 /* StringViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
