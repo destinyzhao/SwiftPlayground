@@ -24,7 +24,7 @@ class FunctionViewController: UIViewController {
         webView = WKWebView(frame: CGRect(x: 0, y: 40, width: self.view.bounds.size.width, height: self.view.bounds.size.height - 40))
         self.view.addSubview(webView)
         //设置访问的url
-        let url = URL(string: "https://www.jianshu.com/p/c5ff695d8182")
+        let url = URL(string: "https://www.cnswift.org/functions")
         //根据url创建请求
         let urlRequest = URLRequest(url: url!)
         //加载请求
@@ -157,7 +157,6 @@ class FunctionViewController: UIViewController {
     
     //someFunction(parameterWithoutDefault: 3, parameterWithDefault: 6) // parameterWithDefault = 6
     //someFunction(parameterWithoutDefault: 4) // parameterWithDefault = 12
-    
     
     /*
      // MARK: - Navigation

@@ -30,6 +30,10 @@
 		DEF3DCBB24C5948A00D1A3A4 /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCB924C5948A00D1A3A4 /* ArrayViewController.swift */; };
 		DEF3DCBF24C59AFD00D1A3A4 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCBD24C59AFD00D1A3A4 /* DictionaryViewController.swift */; };
 		DEF3DCC224C676B800D1A3A4 /* FunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCC124C676B800D1A3A4 /* FunctionViewController.swift */; };
+		DEF3DCC924C6CCA500D1A3A4 /* Resolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCC824C6CCA400D1A3A4 /* Resolution.swift */; };
+		DEF3DCCB24C6CCF900D1A3A4 /* VideoMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCCA24C6CCF900D1A3A4 /* VideoMode.swift */; };
+		DEF3DCCE24C6CD6100D1A3A4 /* StructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCCC24C6CD6100D1A3A4 /* StructViewController.swift */; };
+		DEF3DCCF24C6CD6100D1A3A4 /* StructViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3DCCD24C6CD6100D1A3A4 /* StructViewController.xib */; };
 		F3340CD5C69D830083BC27E8 /* Pods_SwiftPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2D5CA0F5D46A36B8A7C3B2 /* Pods_SwiftPlayground.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +66,10 @@
 		DEF3DCB924C5948A00D1A3A4 /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
 		DEF3DCBD24C59AFD00D1A3A4 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 		DEF3DCC124C676B800D1A3A4 /* FunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionViewController.swift; sourceTree = "<group>"; };
+		DEF3DCC824C6CCA400D1A3A4 /* Resolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolution.swift; sourceTree = "<group>"; };
+		DEF3DCCA24C6CCF900D1A3A4 /* VideoMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMode.swift; sourceTree = "<group>"; };
+		DEF3DCCC24C6CD6100D1A3A4 /* StructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructViewController.swift; sourceTree = "<group>"; };
+		DEF3DCCD24C6CD6100D1A3A4 /* StructViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StructViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,7 @@
 		DEF3DC6B24C567E300D1A3A4 /* SwiftPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				DEF3DCC724C6CC7C00D1A3A4 /* Class */,
 				DEF3DCA424C56D8F00D1A3A4 /* Base */,
 				DEF3DC9A24C56C8300D1A3A4 /* Home */,
 				DEF3DC8C24C56C2400D1A3A4 /* SwiftBase */,
@@ -151,6 +160,8 @@
 				DEF3DCB924C5948A00D1A3A4 /* ArrayViewController.swift */,
 				DEF3DCBD24C59AFD00D1A3A4 /* DictionaryViewController.swift */,
 				DEF3DCC124C676B800D1A3A4 /* FunctionViewController.swift */,
+				DEF3DCCC24C6CD6100D1A3A4 /* StructViewController.swift */,
+				DEF3DCCD24C6CD6100D1A3A4 /* StructViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -205,6 +216,15 @@
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
+		};
+		DEF3DCC724C6CC7C00D1A3A4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3DCC824C6CCA400D1A3A4 /* Resolution.swift */,
+				DEF3DCCA24C6CCF900D1A3A4 /* VideoMode.swift */,
+			);
+			path = Class;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -268,6 +288,7 @@
 			files = (
 				DEF3DC7924C567E900D1A3A4 /* LaunchScreen.storyboard in Resources */,
 				DEF3DC7624C567E900D1A3A4 /* Assets.xcassets in Resources */,
+				DEF3DCCF24C6CD6100D1A3A4 /* StructViewController.xib in Resources */,
 				DEF3DCB024C5733F00D1A3A4 /* HelloWorldViewController.xib in Resources */,
 				DEF3DC9924C56C6700D1A3A4 /* SwiftUIKitViewController.xib in Resources */,
 				DEF3DC7424C567E300D1A3A4 /* Main.storyboard in Resources */,
@@ -327,8 +348,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF3DC9824C56C6700D1A3A4 /* SwiftUIKitViewController.swift in Sources */,
+				DEF3DCCE24C6CD6100D1A3A4 /* StructViewController.swift in Sources */,
 				DEF3DCAC24C56DD100D1A3A4 /* TabbarItemContentView.swift in Sources */,
 				DEF3DCAF24C5733F00D1A3A4 /* HelloWorldViewController.swift in Sources */,
+				DEF3DCC924C6CCA500D1A3A4 /* Resolution.swift in Sources */,
 				DEF3DCC224C676B800D1A3A4 /* FunctionViewController.swift in Sources */,
 				DEF3DCA924C56D8F00D1A3A4 /* BaseNavigationController.swift in Sources */,
 				DEF3DC9C24C56CA500D1A3A4 /* SetupTabbar.swift in Sources */,
@@ -339,6 +362,7 @@
 				DEF3DCAA24C56D8F00D1A3A4 /* BaseViewController.swift in Sources */,
 				DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */,
 				DEF3DC9224C56C3D00D1A3A4 /* SwiftBaseViewController.swift in Sources */,
+				DEF3DCCB24C6CCF900D1A3A4 /* VideoMode.swift in Sources */,
 				DEF3DCBF24C59AFD00D1A3A4 /* DictionaryViewController.swift in Sources */,
 				DEF3DCB724C58FE700D1A3A4 /* StringViewController.swift in Sources */,
 			);
