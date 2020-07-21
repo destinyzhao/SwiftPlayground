@@ -28,9 +28,8 @@
 		DEF3DCB724C58FE700D1A3A4 /* StringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCB524C58FE700D1A3A4 /* StringViewController.swift */; };
 		DEF3DCB824C58FE700D1A3A4 /* StringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3DCB624C58FE700D1A3A4 /* StringViewController.xib */; };
 		DEF3DCBB24C5948A00D1A3A4 /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCB924C5948A00D1A3A4 /* ArrayViewController.swift */; };
-		DEF3DCBC24C5948A00D1A3A4 /* ArrayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3DCBA24C5948A00D1A3A4 /* ArrayViewController.xib */; };
 		DEF3DCBF24C59AFD00D1A3A4 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCBD24C59AFD00D1A3A4 /* DictionaryViewController.swift */; };
-		DEF3DCC024C59AFD00D1A3A4 /* DictionaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3DCBE24C59AFD00D1A3A4 /* DictionaryViewController.xib */; };
+		DEF3DCC224C676B800D1A3A4 /* FunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCC124C676B800D1A3A4 /* FunctionViewController.swift */; };
 		F3340CD5C69D830083BC27E8 /* Pods_SwiftPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2D5CA0F5D46A36B8A7C3B2 /* Pods_SwiftPlayground.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,9 +60,8 @@
 		DEF3DCB524C58FE700D1A3A4 /* StringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringViewController.swift; sourceTree = "<group>"; };
 		DEF3DCB624C58FE700D1A3A4 /* StringViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StringViewController.xib; sourceTree = "<group>"; };
 		DEF3DCB924C5948A00D1A3A4 /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
-		DEF3DCBA24C5948A00D1A3A4 /* ArrayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArrayViewController.xib; sourceTree = "<group>"; };
 		DEF3DCBD24C59AFD00D1A3A4 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
-		DEF3DCBE24C59AFD00D1A3A4 /* DictionaryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DictionaryViewController.xib; sourceTree = "<group>"; };
+		DEF3DCC124C676B800D1A3A4 /* FunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,9 +149,8 @@
 				DEF3DCB524C58FE700D1A3A4 /* StringViewController.swift */,
 				DEF3DCB624C58FE700D1A3A4 /* StringViewController.xib */,
 				DEF3DCB924C5948A00D1A3A4 /* ArrayViewController.swift */,
-				DEF3DCBA24C5948A00D1A3A4 /* ArrayViewController.xib */,
 				DEF3DCBD24C59AFD00D1A3A4 /* DictionaryViewController.swift */,
-				DEF3DCBE24C59AFD00D1A3A4 /* DictionaryViewController.xib */,
+				DEF3DCC124C676B800D1A3A4 /* FunctionViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -275,9 +272,7 @@
 				DEF3DC9924C56C6700D1A3A4 /* SwiftUIKitViewController.xib in Resources */,
 				DEF3DC7424C567E300D1A3A4 /* Main.storyboard in Resources */,
 				DEF3DC9324C56C3D00D1A3A4 /* SwiftBaseViewController.xib in Resources */,
-				DEF3DCBC24C5948A00D1A3A4 /* ArrayViewController.xib in Resources */,
 				DEF3DCB424C586B600D1A3A4 /* RangeOperatorsViewController.xib in Resources */,
-				DEF3DCC024C59AFD00D1A3A4 /* DictionaryViewController.xib in Resources */,
 				DEF3DCB824C58FE700D1A3A4 /* StringViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +329,7 @@
 				DEF3DC9824C56C6700D1A3A4 /* SwiftUIKitViewController.swift in Sources */,
 				DEF3DCAC24C56DD100D1A3A4 /* TabbarItemContentView.swift in Sources */,
 				DEF3DCAF24C5733F00D1A3A4 /* HelloWorldViewController.swift in Sources */,
+				DEF3DCC224C676B800D1A3A4 /* FunctionViewController.swift in Sources */,
 				DEF3DCA924C56D8F00D1A3A4 /* BaseNavigationController.swift in Sources */,
 				DEF3DC9C24C56CA500D1A3A4 /* SetupTabbar.swift in Sources */,
 				DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */,

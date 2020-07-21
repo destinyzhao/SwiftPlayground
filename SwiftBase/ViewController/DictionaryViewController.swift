@@ -15,6 +15,9 @@ class DictionaryViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         
+         self.view.backgroundColor = UIColor.white
+        self.title = "字典"
+        
         var airports:[String:String] = ["YYZ":"Toronto Pearson","DUB":"Dublin"]
         // 访问字典
         print("The dictionary of airports items:",airports)

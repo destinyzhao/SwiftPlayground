@@ -15,6 +15,9 @@ class ArrayViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         
+        self.view.backgroundColor = UIColor.white
+        self.title = "数组"
+        
         let threeDoubles = Array(repeating: 0.0, count: 3)
         print("threeDoubles:",threeDoubles);
         
