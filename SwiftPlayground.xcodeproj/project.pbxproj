@@ -34,6 +34,10 @@
 		DEF3DCCB24C6CCF900D1A3A4 /* VideoMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCCA24C6CCF900D1A3A4 /* VideoMode.swift */; };
 		DEF3DCCE24C6CD6100D1A3A4 /* StructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCCC24C6CD6100D1A3A4 /* StructViewController.swift */; };
 		DEF3DCCF24C6CD6100D1A3A4 /* StructViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3DCCD24C6CD6100D1A3A4 /* StructViewController.xib */; };
+		DEF3DCD224C6D67F00D1A3A4 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCD024C6D67F00D1A3A4 /* PropertyViewController.swift */; };
+		DEF3DCD324C6D67F00D1A3A4 /* PropertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3DCD124C6D67F00D1A3A4 /* PropertyViewController.xib */; };
+		DEF3DCD524C6D75200D1A3A4 /* StepCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCD424C6D75200D1A3A4 /* StepCounter.swift */; };
+		DEF3DCD724C6DAD500D1A3A4 /* FixedLengthRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCD624C6DAD500D1A3A4 /* FixedLengthRange.swift */; };
 		F3340CD5C69D830083BC27E8 /* Pods_SwiftPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2D5CA0F5D46A36B8A7C3B2 /* Pods_SwiftPlayground.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +74,10 @@
 		DEF3DCCA24C6CCF900D1A3A4 /* VideoMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMode.swift; sourceTree = "<group>"; };
 		DEF3DCCC24C6CD6100D1A3A4 /* StructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructViewController.swift; sourceTree = "<group>"; };
 		DEF3DCCD24C6CD6100D1A3A4 /* StructViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StructViewController.xib; sourceTree = "<group>"; };
+		DEF3DCD024C6D67F00D1A3A4 /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
+		DEF3DCD124C6D67F00D1A3A4 /* PropertyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyViewController.xib; sourceTree = "<group>"; };
+		DEF3DCD424C6D75200D1A3A4 /* StepCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounter.swift; sourceTree = "<group>"; };
+		DEF3DCD624C6DAD500D1A3A4 /* FixedLengthRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedLengthRange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +170,8 @@
 				DEF3DCC124C676B800D1A3A4 /* FunctionViewController.swift */,
 				DEF3DCCC24C6CD6100D1A3A4 /* StructViewController.swift */,
 				DEF3DCCD24C6CD6100D1A3A4 /* StructViewController.xib */,
+				DEF3DCD024C6D67F00D1A3A4 /* PropertyViewController.swift */,
+				DEF3DCD124C6D67F00D1A3A4 /* PropertyViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -222,6 +232,8 @@
 			children = (
 				DEF3DCC824C6CCA400D1A3A4 /* Resolution.swift */,
 				DEF3DCCA24C6CCF900D1A3A4 /* VideoMode.swift */,
+				DEF3DCD424C6D75200D1A3A4 /* StepCounter.swift */,
+				DEF3DCD624C6DAD500D1A3A4 /* FixedLengthRange.swift */,
 			);
 			path = Class;
 			sourceTree = SOURCE_ROOT;
@@ -295,6 +307,7 @@
 				DEF3DC9324C56C3D00D1A3A4 /* SwiftBaseViewController.xib in Resources */,
 				DEF3DCB424C586B600D1A3A4 /* RangeOperatorsViewController.xib in Resources */,
 				DEF3DCB824C58FE700D1A3A4 /* StringViewController.xib in Resources */,
+				DEF3DCD324C6D67F00D1A3A4 /* PropertyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,8 +365,11 @@
 				DEF3DCAC24C56DD100D1A3A4 /* TabbarItemContentView.swift in Sources */,
 				DEF3DCAF24C5733F00D1A3A4 /* HelloWorldViewController.swift in Sources */,
 				DEF3DCC924C6CCA500D1A3A4 /* Resolution.swift in Sources */,
+				DEF3DCD224C6D67F00D1A3A4 /* PropertyViewController.swift in Sources */,
+				DEF3DCD724C6DAD500D1A3A4 /* FixedLengthRange.swift in Sources */,
 				DEF3DCC224C676B800D1A3A4 /* FunctionViewController.swift in Sources */,
 				DEF3DCA924C56D8F00D1A3A4 /* BaseNavigationController.swift in Sources */,
+				DEF3DCD524C6D75200D1A3A4 /* StepCounter.swift in Sources */,
 				DEF3DC9C24C56CA500D1A3A4 /* SetupTabbar.swift in Sources */,
 				DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */,
 				DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */,

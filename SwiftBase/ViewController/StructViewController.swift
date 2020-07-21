@@ -33,7 +33,7 @@ class StructViewController: UIViewController {
     
     func loadWebView()  {
         //设置访问的url
-        let url = URL(string: "https://www.cnswift.org/classes-and-structures")
+        let url = URL(string: "https://www.jianshu.com/p/a8c8e85c9801")
         //根据url创建请求
         let urlRequest = URLRequest(url: url!)
         //加载请求
