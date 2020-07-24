@@ -30,16 +30,20 @@
 		DEF3DCBB24C5948A00D1A3A4 /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCB924C5948A00D1A3A4 /* ArrayViewController.swift */; };
 		DEF3DCBF24C59AFD00D1A3A4 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCBD24C59AFD00D1A3A4 /* DictionaryViewController.swift */; };
 		DEF3DCC224C676B800D1A3A4 /* FunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCC124C676B800D1A3A4 /* FunctionViewController.swift */; };
-		DEF3DCC924C6CCA500D1A3A4 /* Resolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCC824C6CCA400D1A3A4 /* Resolution.swift */; };
-		DEF3DCCB24C6CCF900D1A3A4 /* VideoMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCCA24C6CCF900D1A3A4 /* VideoMode.swift */; };
 		DEF3DCCE24C6CD6100D1A3A4 /* StructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCCC24C6CD6100D1A3A4 /* StructViewController.swift */; };
 		DEF3DCCF24C6CD6100D1A3A4 /* StructViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3DCCD24C6CD6100D1A3A4 /* StructViewController.xib */; };
 		DEF3DCD224C6D67F00D1A3A4 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCD024C6D67F00D1A3A4 /* PropertyViewController.swift */; };
 		DEF3DCD324C6D67F00D1A3A4 /* PropertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3DCD124C6D67F00D1A3A4 /* PropertyViewController.xib */; };
-		DEF3DCD524C6D75200D1A3A4 /* StepCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCD424C6D75200D1A3A4 /* StepCounter.swift */; };
-		DEF3DCD724C6DAD500D1A3A4 /* FixedLengthRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DCD624C6DAD500D1A3A4 /* FixedLengthRange.swift */; };
 		DEF3DD4A24CAAF3700D1A3A4 /* ArraySortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD4924CAAF3700D1A3A4 /* ArraySortViewController.swift */; };
 		DEF3DD4D24CAAFCB00D1A3A4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD4C24CAAFCB00D1A3A4 /* Person.swift */; };
+		DEF3DD4F24CAC75200D1A3A4 /* OptionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD4E24CAC75200D1A3A4 /* OptionalViewController.swift */; };
+		DEF3DD5424CAC7BD00D1A3A4 /* StepCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD5024CAC7BD00D1A3A4 /* StepCounter.swift */; };
+		DEF3DD5524CAC7BD00D1A3A4 /* FixedLengthRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD5124CAC7BD00D1A3A4 /* FixedLengthRange.swift */; };
+		DEF3DD5624CAC7BD00D1A3A4 /* Resolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD5224CAC7BD00D1A3A4 /* Resolution.swift */; };
+		DEF3DD5724CAC7BD00D1A3A4 /* VideoMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD5324CAC7BD00D1A3A4 /* VideoMode.swift */; };
+		DEF3DD5A24CAC80100D1A3A4 /* ViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD5924CAC80100D1A3A4 /* ViewControllerHelper.swift */; };
+		DEF3DD5C24CAC9AC00D1A3A4 /* ClassMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD5B24CAC9AC00D1A3A4 /* ClassMethodViewController.swift */; };
+		DEF3DD5E24CACA1B00D1A3A4 /* ClassMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD5D24CACA1B00D1A3A4 /* ClassMethod.swift */; };
 		F3340CD5C69D830083BC27E8 /* Pods_SwiftPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2D5CA0F5D46A36B8A7C3B2 /* Pods_SwiftPlayground.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,16 +76,20 @@
 		DEF3DCB924C5948A00D1A3A4 /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
 		DEF3DCBD24C59AFD00D1A3A4 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 		DEF3DCC124C676B800D1A3A4 /* FunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionViewController.swift; sourceTree = "<group>"; };
-		DEF3DCC824C6CCA400D1A3A4 /* Resolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolution.swift; sourceTree = "<group>"; };
-		DEF3DCCA24C6CCF900D1A3A4 /* VideoMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMode.swift; sourceTree = "<group>"; };
 		DEF3DCCC24C6CD6100D1A3A4 /* StructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructViewController.swift; sourceTree = "<group>"; };
 		DEF3DCCD24C6CD6100D1A3A4 /* StructViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StructViewController.xib; sourceTree = "<group>"; };
 		DEF3DCD024C6D67F00D1A3A4 /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 		DEF3DCD124C6D67F00D1A3A4 /* PropertyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyViewController.xib; sourceTree = "<group>"; };
-		DEF3DCD424C6D75200D1A3A4 /* StepCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounter.swift; sourceTree = "<group>"; };
-		DEF3DCD624C6DAD500D1A3A4 /* FixedLengthRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedLengthRange.swift; sourceTree = "<group>"; };
 		DEF3DD4924CAAF3700D1A3A4 /* ArraySortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySortViewController.swift; sourceTree = "<group>"; };
 		DEF3DD4C24CAAFCB00D1A3A4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DEF3DD4E24CAC75200D1A3A4 /* OptionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalViewController.swift; sourceTree = "<group>"; };
+		DEF3DD5024CAC7BD00D1A3A4 /* StepCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepCounter.swift; sourceTree = "<group>"; };
+		DEF3DD5124CAC7BD00D1A3A4 /* FixedLengthRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedLengthRange.swift; sourceTree = "<group>"; };
+		DEF3DD5224CAC7BD00D1A3A4 /* Resolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resolution.swift; sourceTree = "<group>"; };
+		DEF3DD5324CAC7BD00D1A3A4 /* VideoMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoMode.swift; sourceTree = "<group>"; };
+		DEF3DD5924CAC80100D1A3A4 /* ViewControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHelper.swift; sourceTree = "<group>"; };
+		DEF3DD5B24CAC9AC00D1A3A4 /* ClassMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassMethodViewController.swift; sourceTree = "<group>"; };
+		DEF3DD5D24CACA1B00D1A3A4 /* ClassMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +142,8 @@
 		DEF3DC6B24C567E300D1A3A4 /* SwiftPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				DEF3DD5824CAC7EA00D1A3A4 /* Helper */,
 				DEF3DD4B24CAAFB600D1A3A4 /* Model */,
-				DEF3DCC724C6CC7C00D1A3A4 /* Class */,
 				DEF3DCA424C56D8F00D1A3A4 /* Base */,
 				DEF3DC9A24C56C8300D1A3A4 /* Home */,
 				DEF3DC8C24C56C2400D1A3A4 /* SwiftBase */,
@@ -178,6 +186,8 @@
 				DEF3DCD024C6D67F00D1A3A4 /* PropertyViewController.swift */,
 				DEF3DCD124C6D67F00D1A3A4 /* PropertyViewController.xib */,
 				DEF3DD4924CAAF3700D1A3A4 /* ArraySortViewController.swift */,
+				DEF3DD4E24CAC75200D1A3A4 /* OptionalViewController.swift */,
+				DEF3DD5B24CAC9AC00D1A3A4 /* ClassMethodViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -233,23 +243,25 @@
 			path = BaseViewController;
 			sourceTree = "<group>";
 		};
-		DEF3DCC724C6CC7C00D1A3A4 /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				DEF3DCC824C6CCA400D1A3A4 /* Resolution.swift */,
-				DEF3DCCA24C6CCF900D1A3A4 /* VideoMode.swift */,
-				DEF3DCD424C6D75200D1A3A4 /* StepCounter.swift */,
-				DEF3DCD624C6DAD500D1A3A4 /* FixedLengthRange.swift */,
-			);
-			path = Class;
-			sourceTree = SOURCE_ROOT;
-		};
 		DEF3DD4B24CAAFB600D1A3A4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DEF3DD5124CAC7BD00D1A3A4 /* FixedLengthRange.swift */,
+				DEF3DD5224CAC7BD00D1A3A4 /* Resolution.swift */,
+				DEF3DD5024CAC7BD00D1A3A4 /* StepCounter.swift */,
+				DEF3DD5324CAC7BD00D1A3A4 /* VideoMode.swift */,
 				DEF3DD4C24CAAFCB00D1A3A4 /* Person.swift */,
+				DEF3DD5D24CACA1B00D1A3A4 /* ClassMethod.swift */,
 			);
 			path = Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		DEF3DD5824CAC7EA00D1A3A4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3DD5924CAC80100D1A3A4 /* ViewControllerHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -376,25 +388,29 @@
 			files = (
 				DEF3DC9824C56C6700D1A3A4 /* SwiftUIKitViewController.swift in Sources */,
 				DEF3DCCE24C6CD6100D1A3A4 /* StructViewController.swift in Sources */,
+				DEF3DD5624CAC7BD00D1A3A4 /* Resolution.swift in Sources */,
 				DEF3DCAC24C56DD100D1A3A4 /* TabbarItemContentView.swift in Sources */,
 				DEF3DCAF24C5733F00D1A3A4 /* HelloWorldViewController.swift in Sources */,
-				DEF3DCC924C6CCA500D1A3A4 /* Resolution.swift in Sources */,
+				DEF3DD4F24CAC75200D1A3A4 /* OptionalViewController.swift in Sources */,
+				DEF3DD5424CAC7BD00D1A3A4 /* StepCounter.swift in Sources */,
 				DEF3DCD224C6D67F00D1A3A4 /* PropertyViewController.swift in Sources */,
 				DEF3DD4A24CAAF3700D1A3A4 /* ArraySortViewController.swift in Sources */,
-				DEF3DCD724C6DAD500D1A3A4 /* FixedLengthRange.swift in Sources */,
+				DEF3DD5524CAC7BD00D1A3A4 /* FixedLengthRange.swift in Sources */,
 				DEF3DCC224C676B800D1A3A4 /* FunctionViewController.swift in Sources */,
 				DEF3DD4D24CAAFCB00D1A3A4 /* Person.swift in Sources */,
 				DEF3DCA924C56D8F00D1A3A4 /* BaseNavigationController.swift in Sources */,
-				DEF3DCD524C6D75200D1A3A4 /* StepCounter.swift in Sources */,
 				DEF3DC9C24C56CA500D1A3A4 /* SetupTabbar.swift in Sources */,
+				DEF3DD5724CAC7BD00D1A3A4 /* VideoMode.swift in Sources */,
+				DEF3DD5A24CAC80100D1A3A4 /* ViewControllerHelper.swift in Sources */,
 				DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */,
 				DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */,
 				DEF3DCB324C586B600D1A3A4 /* RangeOperatorsViewController.swift in Sources */,
 				DEF3DCBB24C5948A00D1A3A4 /* ArrayViewController.swift in Sources */,
+				DEF3DD5C24CAC9AC00D1A3A4 /* ClassMethodViewController.swift in Sources */,
+				DEF3DD5E24CACA1B00D1A3A4 /* ClassMethod.swift in Sources */,
 				DEF3DCAA24C56D8F00D1A3A4 /* BaseViewController.swift in Sources */,
 				DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */,
 				DEF3DC9224C56C3D00D1A3A4 /* SwiftBaseViewController.swift in Sources */,
-				DEF3DCCB24C6CCF900D1A3A4 /* VideoMode.swift in Sources */,
 				DEF3DCBF24C59AFD00D1A3A4 /* DictionaryViewController.swift in Sources */,
 				DEF3DCB724C58FE700D1A3A4 /* StringViewController.swift in Sources */,
 			);

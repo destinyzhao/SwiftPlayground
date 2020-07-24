@@ -12,7 +12,9 @@ class SwiftBaseViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let dataArray = ["Hello, World!","区间运算符","多行字符串字面量","数组","字典","函数","类与结构体","属性","数组对象排序"]
+    let dataArray = ["Hello, World!","区间运算符","多行字符串字面量","数组","字典","函数","类与结构体","属性","数组对象排序","可选链","类方法和实例方法"]
+    let classNameArray = ["HelloWorldViewController","RangeOperatorsViewController","StringViewController","ArrayViewController","DictionaryViewController","FunctionViewController","StructViewController","PropertyViewController","ArraySortViewController","OptionalViewController","ClassMethodViewController"]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,55 +43,10 @@ extension SwiftBaseViewController:UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        switch indexPath.row {
-        case 0:
-            let pushVC = HelloWorldViewController()
-            pushVC.hidesBottomBarWhenPushed = true
-            self.navigationController?.pushViewController(pushVC, animated: true)
-            break
-        case 1:
-            let pushVC = RangeOperatorsViewController()
-            pushVC.hidesBottomBarWhenPushed = true
-            self.navigationController?.pushViewController(pushVC, animated: true)
-            break
-        case 2:
-            let pushVC = StringViewController()
-            pushVC.hidesBottomBarWhenPushed = true
-            self.navigationController?.pushViewController(pushVC, animated: true)
-            break
-        case 3:
-            let pushVC = ArrayViewController()
-            pushVC.hidesBottomBarWhenPushed = true
-            self.navigationController?.pushViewController(pushVC, animated: true)
-            break
-        case 4:
-            let pushVC = DictionaryViewController()
-            pushVC.hidesBottomBarWhenPushed = true
-            self.navigationController?.pushViewController(pushVC, animated: true)
-            break
-        case 5:
-            let pushVC = FunctionViewController()
-            pushVC.hidesBottomBarWhenPushed = true
-            self.navigationController?.pushViewController(pushVC, animated: true)
-            break
-        case 6:
-            let pushVC = StructViewController()
-            pushVC.hidesBottomBarWhenPushed = true
-            self.navigationController?.pushViewController(pushVC, animated: true)
-            break
-        case 7:
-            let pushVC = PropertyViewController()
-            pushVC.hidesBottomBarWhenPushed = true
-            self.navigationController?.pushViewController(pushVC, animated: true)
-            break
-        case 8:
-            let pushVC = ArraySortViewController()
-            pushVC.hidesBottomBarWhenPushed = true
-            self.navigationController?.pushViewController(pushVC, animated: true)
-            break
-            
-        default:
-            break
-        }
+        let pushVC = ViewControllerHelper.getViewControllerWithCalssName(classNameArray[indexPath.row])
+        pushVC.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(pushVC, animated: true)
     }
+    
+    
 }

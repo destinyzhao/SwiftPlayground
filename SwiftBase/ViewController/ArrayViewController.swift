@@ -55,6 +55,21 @@ class ArrayViewController: UIViewController {
         for (index, value) in shoppingList.enumerated() {
             print("Item \(String(index + 1)): \(value)")
         }
+        
+        let demoArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+        for item in demoArr.dropFirst() {
+         print("item: \(item)")
+        }
+        
+        for item in demoArr.dropFirst(3) {
+         print("item: \(item)")
+        }
+        
+        let demoAArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+        //
+        for item in demoAArr.dropLast(3) {
+         print("item: \(item)")
+        }
     }
     
     
