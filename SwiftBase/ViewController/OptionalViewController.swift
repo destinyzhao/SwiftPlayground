@@ -29,11 +29,14 @@ class OptionalViewController: UIViewController {
         }
         
         john.residence = Residence()
+        john.residence?.numberOfRooms = 5;
         if let roomCount = john.residence?.numberOfRooms {
             print("John's residence has \(roomCount) room(s).")
         } else {
             print("Unable to retrieve the number of rooms.")
         }
+        
+       
     }
     
 

@@ -22,7 +22,8 @@ class SwiftBaseViewController: UIViewController {
                      "属性",
                      "数组对象排序",
                      "可选链",
-                     "类方法和实例方法"
+                     "类方法和实例方法",
+                     "类型转换"
     ]
     
     let classNameArray = ["HelloWorldViewController",
@@ -35,7 +36,8 @@ class SwiftBaseViewController: UIViewController {
                           "PropertyViewController",
                           "ArraySortViewController",
                           "OptionalViewController",
-                          "ClassMethodViewController"
+                          "ClassMethodViewController",
+                          "TypeViewController"
     ]
     
     

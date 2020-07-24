@@ -45,6 +45,10 @@
 		DEF3DD5C24CAC9AC00D1A3A4 /* ClassMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD5B24CAC9AC00D1A3A4 /* ClassMethodViewController.swift */; };
 		DEF3DD5E24CACA1B00D1A3A4 /* ClassMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD5D24CACA1B00D1A3A4 /* ClassMethod.swift */; };
 		DEF3DD6024CAD4EB00D1A3A4 /* Residence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD5F24CAD4EB00D1A3A4 /* Residence.swift */; };
+		DEF3DD6224CAE53300D1A3A4 /* TypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD6124CAE53300D1A3A4 /* TypeViewController.swift */; };
+		DEF3DD6424CAE57700D1A3A4 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD6324CAE57700D1A3A4 /* MediaItem.swift */; };
+		DEF3DD6624CAE59A00D1A3A4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD6524CAE59A00D1A3A4 /* Movie.swift */; };
+		DEF3DD6824CAE5CD00D1A3A4 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DD6724CAE5CD00D1A3A4 /* Song.swift */; };
 		F3340CD5C69D830083BC27E8 /* Pods_SwiftPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2D5CA0F5D46A36B8A7C3B2 /* Pods_SwiftPlayground.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +96,10 @@
 		DEF3DD5B24CAC9AC00D1A3A4 /* ClassMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassMethodViewController.swift; sourceTree = "<group>"; };
 		DEF3DD5D24CACA1B00D1A3A4 /* ClassMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassMethod.swift; sourceTree = "<group>"; };
 		DEF3DD5F24CAD4EB00D1A3A4 /* Residence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Residence.swift; sourceTree = "<group>"; };
+		DEF3DD6124CAE53300D1A3A4 /* TypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeViewController.swift; sourceTree = "<group>"; };
+		DEF3DD6324CAE57700D1A3A4 /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		DEF3DD6524CAE59A00D1A3A4 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		DEF3DD6724CAE5CD00D1A3A4 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +198,7 @@
 				DEF3DD4924CAAF3700D1A3A4 /* ArraySortViewController.swift */,
 				DEF3DD4E24CAC75200D1A3A4 /* OptionalViewController.swift */,
 				DEF3DD5B24CAC9AC00D1A3A4 /* ClassMethodViewController.swift */,
+				DEF3DD6124CAE53300D1A3A4 /* TypeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -255,6 +264,9 @@
 				DEF3DD4C24CAAFCB00D1A3A4 /* Person.swift */,
 				DEF3DD5D24CACA1B00D1A3A4 /* ClassMethod.swift */,
 				DEF3DD5F24CAD4EB00D1A3A4 /* Residence.swift */,
+				DEF3DD6324CAE57700D1A3A4 /* MediaItem.swift */,
+				DEF3DD6524CAE59A00D1A3A4 /* Movie.swift */,
+				DEF3DD6724CAE5CD00D1A3A4 /* Song.swift */,
 			);
 			path = Model;
 			sourceTree = SOURCE_ROOT;
@@ -406,14 +418,18 @@
 				DEF3DD5724CAC7BD00D1A3A4 /* VideoMode.swift in Sources */,
 				DEF3DD5A24CAC80100D1A3A4 /* ViewControllerHelper.swift in Sources */,
 				DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */,
+				DEF3DD6424CAE57700D1A3A4 /* MediaItem.swift in Sources */,
 				DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */,
+				DEF3DD6624CAE59A00D1A3A4 /* Movie.swift in Sources */,
 				DEF3DCB324C586B600D1A3A4 /* RangeOperatorsViewController.swift in Sources */,
 				DEF3DCBB24C5948A00D1A3A4 /* ArrayViewController.swift in Sources */,
 				DEF3DD5C24CAC9AC00D1A3A4 /* ClassMethodViewController.swift in Sources */,
 				DEF3DD5E24CACA1B00D1A3A4 /* ClassMethod.swift in Sources */,
+				DEF3DD6224CAE53300D1A3A4 /* TypeViewController.swift in Sources */,
 				DEF3DCAA24C56D8F00D1A3A4 /* BaseViewController.swift in Sources */,
 				DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */,
 				DEF3DD6024CAD4EB00D1A3A4 /* Residence.swift in Sources */,
+				DEF3DD6824CAE5CD00D1A3A4 /* Song.swift in Sources */,
 				DEF3DC9224C56C3D00D1A3A4 /* SwiftBaseViewController.swift in Sources */,
 				DEF3DCBF24C59AFD00D1A3A4 /* DictionaryViewController.swift in Sources */,
 				DEF3DCB724C58FE700D1A3A4 /* StringViewController.swift in Sources */,
