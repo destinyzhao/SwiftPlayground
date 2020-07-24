@@ -13,4 +13,5 @@ class Person: NSObject {
     var age:Int = 0
     var addrss:String = ""
     
+    var residence: Residence?
 }

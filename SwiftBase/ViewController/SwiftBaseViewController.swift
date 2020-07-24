@@ -12,8 +12,31 @@ class SwiftBaseViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let dataArray = ["Hello, World!","区间运算符","多行字符串字面量","数组","字典","函数","类与结构体","属性","数组对象排序","可选链","类方法和实例方法"]
-    let classNameArray = ["HelloWorldViewController","RangeOperatorsViewController","StringViewController","ArrayViewController","DictionaryViewController","FunctionViewController","StructViewController","PropertyViewController","ArraySortViewController","OptionalViewController","ClassMethodViewController"]
+    let dataArray = ["Hello, World!",
+                     "区间运算符",
+                     "多行字符串字面量",
+                     "数组",
+                     "字典",
+                     "函数",
+                     "类与结构体",
+                     "属性",
+                     "数组对象排序",
+                     "可选链",
+                     "类方法和实例方法"
+    ]
+    
+    let classNameArray = ["HelloWorldViewController",
+                          "RangeOperatorsViewController",
+                          "StringViewController",
+                          "ArrayViewController",
+                          "DictionaryViewController",
+                          "FunctionViewController",
+                          "StructViewController",
+                          "PropertyViewController",
+                          "ArraySortViewController",
+                          "OptionalViewController",
+                          "ClassMethodViewController"
+    ]
     
     
     override func viewDidLoad() {

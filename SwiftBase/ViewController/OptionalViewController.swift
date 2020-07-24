@@ -17,6 +17,23 @@ class OptionalViewController: UIViewController {
         
         self.title = "可选链";
         self.view.backgroundColor = UIColor.white;
+        
+        let john = Person()
+//        let roomCount = john.residence!.numberOfRooms
+//        print("roomCount:\(roomCount)")
+        
+        if let roomCount = john.residence?.numberOfRooms {
+            print("John's residence has \(roomCount) room(s).")
+        } else {
+            print("Unable to retrieve the number of rooms.")
+        }
+        
+        john.residence = Residence()
+        if let roomCount = john.residence?.numberOfRooms {
+            print("John's residence has \(roomCount) room(s).")
+        } else {
+            print("Unable to retrieve the number of rooms.")
+        }
     }
     
 
