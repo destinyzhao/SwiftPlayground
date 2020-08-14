@@ -27,7 +27,9 @@ class SwiftBaseViewController: UIViewController {
                      "扩展",
                      "Mutating",
                      "泛型",
-                     "高阶函数"
+                     "高阶函数",
+                     "自动引用计数",
+                     "元祖"
     ]
     
     let classNameArray = ["HelloWorldViewController",
@@ -45,7 +47,9 @@ class SwiftBaseViewController: UIViewController {
                           "ExtensionViewController",
                           "MutatingViewController",
                           "GenericsViewController",
-                          "HigherFunctionViewController"
+                          "HigherFunctionViewController",
+                          "ARCViewController",
+                          "TupleViewController"
     ]
     
     
