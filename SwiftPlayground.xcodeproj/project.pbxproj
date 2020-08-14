@@ -16,6 +16,9 @@
 		DEC96A8B24E618BA001619CF /* ARCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A8A24E618BA001619CF /* ARCViewController.swift */; };
 		DEC96A8D24E6194A001619CF /* ARCPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A8C24E6194A001619CF /* ARCPerson.swift */; };
 		DEC96A8F24E61FFE001619CF /* TupleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A8E24E61FFE001619CF /* TupleViewController.swift */; };
+		DEC96A9324E628B7001619CF /* ClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A9224E628B7001619CF /* ClosuresViewController.swift */; };
+		DEC96A9824E63F3D001619CF /* SwiftNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A9624E63F3D001619CF /* SwiftNetworkViewController.swift */; };
+		DEC96A9924E63F3D001619CF /* SwiftNetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96A9724E63F3D001619CF /* SwiftNetworkViewController.xib */; };
 		DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */; };
 		DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */; };
 		DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC7024C567E300D1A3A4 /* ViewController.swift */; };
@@ -74,6 +77,9 @@
 		DEC96A8A24E618BA001619CF /* ARCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCViewController.swift; sourceTree = "<group>"; };
 		DEC96A8C24E6194A001619CF /* ARCPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCPerson.swift; sourceTree = "<group>"; };
 		DEC96A8E24E61FFE001619CF /* TupleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleViewController.swift; sourceTree = "<group>"; };
+		DEC96A9224E628B7001619CF /* ClosuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresViewController.swift; sourceTree = "<group>"; };
+		DEC96A9624E63F3D001619CF /* SwiftNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNetworkViewController.swift; sourceTree = "<group>"; };
+		DEC96A9724E63F3D001619CF /* SwiftNetworkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftNetworkViewController.xib; sourceTree = "<group>"; };
 		DEF3DC6924C567E300D1A3A4 /* SwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +155,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DEC96A9424E63F1C001619CF /* SwiftNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96A9524E63F1C001619CF /* ViewController */,
+			);
+			path = SwiftNetwork;
+			sourceTree = SOURCE_ROOT;
+		};
+		DEC96A9524E63F1C001619CF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96A9624E63F3D001619CF /* SwiftNetworkViewController.swift */,
+				DEC96A9724E63F3D001619CF /* SwiftNetworkViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		DEF3DC6024C567E300D1A3A4 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +198,7 @@
 				DEF3DCA424C56D8F00D1A3A4 /* Base */,
 				DEF3DC9A24C56C8300D1A3A4 /* Home */,
 				DEF3DC8C24C56C2400D1A3A4 /* SwiftBase */,
+				DEC96A9424E63F1C001619CF /* SwiftNetwork */,
 				DEF3DC8E24C56C2400D1A3A4 /* SwiftUIKit */,
 				DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */,
 				DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */,
@@ -223,6 +247,7 @@
 				DEA3130524D95DE5008BF13E /* HigherFunctionViewController.swift */,
 				DEC96A8A24E618BA001619CF /* ARCViewController.swift */,
 				DEC96A8E24E61FFE001619CF /* TupleViewController.swift */,
+				DEC96A9224E628B7001619CF /* ClosuresViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -370,6 +395,7 @@
 				DEF3DC7624C567E900D1A3A4 /* Assets.xcassets in Resources */,
 				DEF3DCCF24C6CD6100D1A3A4 /* StructViewController.xib in Resources */,
 				DEF3DCB024C5733F00D1A3A4 /* HelloWorldViewController.xib in Resources */,
+				DEC96A9924E63F3D001619CF /* SwiftNetworkViewController.xib in Resources */,
 				DEF3DC9924C56C6700D1A3A4 /* SwiftUIKitViewController.xib in Resources */,
 				DEF3DC7424C567E300D1A3A4 /* Main.storyboard in Resources */,
 				DEF3DC9324C56C3D00D1A3A4 /* SwiftBaseViewController.xib in Resources */,
@@ -448,6 +474,7 @@
 				DEA3130024D94ADB008BF13E /* MutatingViewController.swift in Sources */,
 				DEF3DD5A24CAC80100D1A3A4 /* ViewControllerHelper.swift in Sources */,
 				DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */,
+				DEC96A9324E628B7001619CF /* ClosuresViewController.swift in Sources */,
 				DEF3DD6424CAE57700D1A3A4 /* MediaItem.swift in Sources */,
 				DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */,
 				DEF3DD6624CAE59A00D1A3A4 /* Movie.swift in Sources */,
@@ -455,6 +482,7 @@
 				DEF3DCBB24C5948A00D1A3A4 /* ArrayViewController.swift in Sources */,
 				DEF3DD5C24CAC9AC00D1A3A4 /* ClassMethodViewController.swift in Sources */,
 				DEF3DD5E24CACA1B00D1A3A4 /* ClassMethod.swift in Sources */,
+				DEC96A9824E63F3D001619CF /* SwiftNetworkViewController.swift in Sources */,
 				DEA3130624D95DE5008BF13E /* HigherFunctionViewController.swift in Sources */,
 				DEF3DD6224CAE53300D1A3A4 /* TypeViewController.swift in Sources */,
 				DEF3DCAA24C56D8F00D1A3A4 /* BaseViewController.swift in Sources */,

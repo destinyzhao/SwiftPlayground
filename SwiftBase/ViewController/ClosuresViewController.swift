@@ -1,5 +1,5 @@
 //
-//  TupleViewController.swift
+//  ClosuresViewController.swift
 //  SwiftPlayground
 //
 //  Created by Destiny on 2020/8/14.
@@ -8,28 +8,32 @@
 
 import UIKit
 
-class TupleViewController: UIViewController {
+class ClosuresViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        self.title = "元祖";
+        self.title = "闭包";
         self.view.backgroundColor = UIColor.white;
         
-        let error501 = (501, "Not implemented")
+        let divide = {(val1: Int, val2: Int) -> Int in
+            return val1 / val2
+        }
+        let result = divide(200, 20)
+        print ("result:\(result)")
         
-        print("The code is:\(error501.0)")
-        print("The definition of error is:\(error501.1)")
         
-        let error404 = (errorCode: 404, description: "Not Found")
-        print(error404.errorCode)
+        let names = ["T", "E", "D", "S", "B"]
         
-        let arr = [1, 2, 3]
-        let dic = ["key1": "value1", "key2": "value2","key3":"value3"]
-        let anyTuple = (arr,dic)
-        print("数组元素:\(anyTuple.0[0])")
-        print("字典元素:\(anyTuple.1["key1"]!) ")
+        func bacckWards(s1:String,s2:String) ->Bool{
+            return s1 > s2
+        }
+        let reversed = names.sorted(by:bacckWards)
+        print("reversed:\(reversed)")
+        
+        let reversed1 = names.sorted(by:{$0 > $1})
+        print("reversed1:\(reversed1)")
     }
     
     

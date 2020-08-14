@@ -21,7 +21,7 @@ class SwiftBaseViewController: UIViewController {
                      "类与结构体",
                      "属性",
                      "数组对象排序",
-                     "可选链",
+                     "可选类型",
                      "类方法和实例方法",
                      "类型转换",
                      "扩展",
@@ -29,7 +29,8 @@ class SwiftBaseViewController: UIViewController {
                      "泛型",
                      "高阶函数",
                      "自动引用计数",
-                     "元祖"
+                     "元祖",
+                     "闭包"
     ]
     
     let classNameArray = ["HelloWorldViewController",
@@ -49,7 +50,8 @@ class SwiftBaseViewController: UIViewController {
                           "GenericsViewController",
                           "HigherFunctionViewController",
                           "ARCViewController",
-                          "TupleViewController"
+                          "TupleViewController",
+                          "ClosuresViewController"
     ]
     
     
