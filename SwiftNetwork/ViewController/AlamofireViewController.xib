@@ -7,9 +7,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwiftNetworkViewController" customModule="SwiftPlayground" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlamofireViewController" customModule="SwiftPlayground" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="exJ-HV-MIK" id="BxN-E7-s6r"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,21 +17,23 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="exJ-HV-MIK">
-                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zzw-ar-0hg">
+                    <rect key="frame" x="20" y="84" width="374" height="40"/>
+                    <color key="backgroundColor" red="0.64313725489999995" green="0.81176470590000005" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Vg9-LQ-R7w"/>
+                    </constraints>
+                    <state key="normal" title="获取天气信息"/>
                     <connections>
-                        <outlet property="dataSource" destination="-1" id="Nhz-2S-CP2"/>
-                        <outlet property="delegate" destination="-1" id="sKc-vl-0PI"/>
+                        <action selector="weatherAction:" destination="-1" eventType="touchUpInside" id="1KX-Qm-DCt"/>
                     </connections>
-                </tableView>
+                </button>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
-                <constraint firstItem="exJ-HV-MIK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="3gR-uL-Rcu"/>
-                <constraint firstItem="exJ-HV-MIK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5vw-M7-aVL"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="exJ-HV-MIK" secondAttribute="trailing" id="pkr-ym-knM"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="exJ-HV-MIK" secondAttribute="bottom" id="uVe-fR-lN6"/>
+                <constraint firstItem="Zzw-ar-0hg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="A5I-Se-vF5"/>
+                <constraint firstItem="Zzw-ar-0hg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="AoJ-OI-rOD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Zzw-ar-0hg" secondAttribute="trailing" constant="20" id="Ck9-tt-fmn"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="139" y="129"/>

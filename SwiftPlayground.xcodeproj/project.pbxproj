@@ -19,6 +19,8 @@
 		DEC96A9324E628B7001619CF /* ClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A9224E628B7001619CF /* ClosuresViewController.swift */; };
 		DEC96A9824E63F3D001619CF /* SwiftNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A9624E63F3D001619CF /* SwiftNetworkViewController.swift */; };
 		DEC96A9924E63F3D001619CF /* SwiftNetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96A9724E63F3D001619CF /* SwiftNetworkViewController.xib */; };
+		DEC96A9C24EA785F001619CF /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A9A24EA785F001619CF /* AlamofireViewController.swift */; };
+		DEC96A9D24EA785F001619CF /* AlamofireViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96A9B24EA785F001619CF /* AlamofireViewController.xib */; };
 		DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */; };
 		DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */; };
 		DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC7024C567E300D1A3A4 /* ViewController.swift */; };
@@ -80,6 +82,8 @@
 		DEC96A9224E628B7001619CF /* ClosuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresViewController.swift; sourceTree = "<group>"; };
 		DEC96A9624E63F3D001619CF /* SwiftNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNetworkViewController.swift; sourceTree = "<group>"; };
 		DEC96A9724E63F3D001619CF /* SwiftNetworkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftNetworkViewController.xib; sourceTree = "<group>"; };
+		DEC96A9A24EA785F001619CF /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
+		DEC96A9B24EA785F001619CF /* AlamofireViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlamofireViewController.xib; sourceTree = "<group>"; };
 		DEF3DC6924C567E300D1A3A4 /* SwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -168,6 +172,8 @@
 			children = (
 				DEC96A9624E63F3D001619CF /* SwiftNetworkViewController.swift */,
 				DEC96A9724E63F3D001619CF /* SwiftNetworkViewController.xib */,
+				DEC96A9A24EA785F001619CF /* AlamofireViewController.swift */,
+				DEC96A9B24EA785F001619CF /* AlamofireViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -398,6 +404,7 @@
 				DEC96A9924E63F3D001619CF /* SwiftNetworkViewController.xib in Resources */,
 				DEF3DC9924C56C6700D1A3A4 /* SwiftUIKitViewController.xib in Resources */,
 				DEF3DC7424C567E300D1A3A4 /* Main.storyboard in Resources */,
+				DEC96A9D24EA785F001619CF /* AlamofireViewController.xib in Resources */,
 				DEF3DC9324C56C3D00D1A3A4 /* SwiftBaseViewController.xib in Resources */,
 				DEF3DCB424C586B600D1A3A4 /* RangeOperatorsViewController.xib in Resources */,
 				DEF3DCB824C58FE700D1A3A4 /* StringViewController.xib in Resources */,
@@ -473,6 +480,7 @@
 				DEF3DD5724CAC7BD00D1A3A4 /* VideoMode.swift in Sources */,
 				DEA3130024D94ADB008BF13E /* MutatingViewController.swift in Sources */,
 				DEF3DD5A24CAC80100D1A3A4 /* ViewControllerHelper.swift in Sources */,
+				DEC96A9C24EA785F001619CF /* AlamofireViewController.swift in Sources */,
 				DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */,
 				DEC96A9324E628B7001619CF /* ClosuresViewController.swift in Sources */,
 				DEF3DD6424CAE57700D1A3A4 /* MediaItem.swift in Sources */,
