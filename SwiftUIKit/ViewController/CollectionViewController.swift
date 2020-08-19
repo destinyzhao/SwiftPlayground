@@ -17,7 +17,7 @@ class CollectionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
         self.title = "CollectionView Demo"
@@ -25,8 +25,8 @@ class CollectionViewController: UIViewController {
         setupUI()
         loadData()
     }
-
-
+    
+    
     func setupUI() -> Void {
         self.collectionView.register(UINib.init(nibName: "RankCollectionCell", bundle: nil), forCellWithReuseIdentifier: "RankCollectionCell")
         
@@ -37,31 +37,31 @@ class CollectionViewController: UIViewController {
     }
     
     func loadData() {
-    NetworkApiLoadingProvider.request(NetworkAPI.categoryList) { result in
-        if case let .success(response) = result {
-            // 解析数据
-            let jsonDic = try! response.mapJSON() as! NSDictionary
-            let dataDic = jsonDic["data"] as! NSDictionary
-            let returnData = dataDic["returnData"] as! NSDictionary
-            let rankinglist = returnData["rankingList"] as! NSArray
-          
-            self.rankList = (JSONDeserializer<RankModel>.deserializeModelArrayFrom(array: rankinglist)) as! [RankModel]
-        }
-
-           self.collectionView.reloadData()
+        NetworkApiLoadingProvider.request(NetworkAPI.categoryList) { result in
+            if case let .success(response) = result {
+                // 解析数据
+                let jsonDic = try! response.mapJSON() as! NSDictionary
+                let dataDic = jsonDic["data"] as! NSDictionary
+                let returnData = dataDic["returnData"] as! NSDictionary
+                let rankinglist = returnData["rankingList"] as! NSArray
+                
+                self.rankList = (JSONDeserializer<RankModel>.deserializeModelArrayFrom(array: rankinglist)) as! [RankModel]
+            }
+            
+            self.collectionView.reloadData()
         }
     }
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
 
 extension CollectionViewController: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource{
@@ -70,14 +70,14 @@ extension CollectionViewController: UICollectionViewDelegateFlowLayout, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-         return rankList.count
+        return rankList.count
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell:RankCollectionCell = collectionView.dequeueReusableCell(for: indexPath, cellType: RankCollectionCell.self)
         if rankList.count > indexPath.row {
-             cell.rankModel = rankList[indexPath.row]
+            cell.rankModel = rankList[indexPath.row]
         }
-       
+        
         return cell
     }
     

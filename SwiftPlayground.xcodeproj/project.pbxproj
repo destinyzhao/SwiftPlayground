@@ -41,6 +41,8 @@
 		DEC96AD024ED15E1001619CF /* ComicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ACF24ED15E1001619CF /* ComicModel.swift */; };
 		DEC96AD324ED1681001619CF /* ComicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AD124ED1681001619CF /* ComicCell.swift */; };
 		DEC96AD424ED1681001619CF /* ComicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AD224ED1681001619CF /* ComicCell.xib */; };
+		DEC96AD824ED250F001619CF /* URefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AD724ED250F001619CF /* URefresh.swift */; };
+		DEC96ADB24ED2665001619CF /* UEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ADA24ED2665001619CF /* UEmptyDataSet.swift */; };
 		DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */; };
 		DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */; };
 		DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC7024C567E300D1A3A4 /* ViewController.swift */; };
@@ -124,6 +126,8 @@
 		DEC96ACF24ED15E1001619CF /* ComicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicModel.swift; sourceTree = "<group>"; };
 		DEC96AD124ED1681001619CF /* ComicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicCell.swift; sourceTree = "<group>"; };
 		DEC96AD224ED1681001619CF /* ComicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComicCell.xib; sourceTree = "<group>"; };
+		DEC96AD724ED250F001619CF /* URefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URefresh.swift; sourceTree = "<group>"; };
+		DEC96ADA24ED2665001619CF /* UEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UEmptyDataSet.swift; sourceTree = "<group>"; };
 		DEF3DC6924C567E300D1A3A4 /* SwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -276,6 +280,31 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DEC96AD524ED250F001619CF /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96AD924ED2665001619CF /* EmptyDataSet */,
+				DEC96AD624ED250F001619CF /* Refresh */,
+			);
+			path = Expand;
+			sourceTree = SOURCE_ROOT;
+		};
+		DEC96AD624ED250F001619CF /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96AD724ED250F001619CF /* URefresh.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		DEC96AD924ED2665001619CF /* EmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96ADA24ED2665001619CF /* UEmptyDataSet.swift */,
+			);
+			path = EmptyDataSet;
+			sourceTree = "<group>";
+		};
 		DEF3DC6024C567E300D1A3A4 = {
 			isa = PBXGroup;
 			children = (
@@ -297,6 +326,7 @@
 		DEF3DC6B24C567E300D1A3A4 /* SwiftPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				DEC96AD524ED250F001619CF /* Expand */,
 				DEC96AB624ECCAF4001619CF /* Other */,
 				DEC96A9F24EBA06B001619CF /* Manager */,
 				DEF3DD5824CAC7EA00D1A3A4 /* Helper */,
@@ -589,6 +619,7 @@
 				DEC96A8F24E61FFE001619CF /* TupleViewController.swift in Sources */,
 				DEC96A8B24E618BA001619CF /* ARCViewController.swift in Sources */,
 				DEF3DD4F24CAC75200D1A3A4 /* OptionalViewController.swift in Sources */,
+				DEC96AD824ED250F001619CF /* URefresh.swift in Sources */,
 				DEF3DD5424CAC7BD00D1A3A4 /* StepCounter.swift in Sources */,
 				DEC96AAE24ECC38B001619CF /* JsonToObjectViewController.swift in Sources */,
 				DEF3DCD224C6D67F00D1A3A4 /* PropertyViewController.swift in Sources */,
@@ -633,6 +664,7 @@
 				DEF3DCBF24C59AFD00D1A3A4 /* DictionaryViewController.swift in Sources */,
 				DEA3130224D94B0F008BF13E /* Area.swift in Sources */,
 				DEF3DCB724C58FE700D1A3A4 /* StringViewController.swift in Sources */,
+				DEC96ADB24ED2665001619CF /* UEmptyDataSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,5 +8,7 @@ target 'SwiftPlayground' do
     pod 'MBProgressHUD'
     pod 'Kingfisher'
     pod 'Reusable'
+    pod 'MJRefresh'
+    pod 'EmptyDataSet-Swift'
     
 end

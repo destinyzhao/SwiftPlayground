@@ -41,3 +41,15 @@ extension Kingfisher where Base: ImageView {
                         options:[.transition(.fade(0.5))])
     }
 }
+
+//MRAK: 应用默认颜色
+extension UIColor {
+    class var background: UIColor {
+        return UIColor(red: 242, green: 242, blue: 242, alpha: 1)
+    }
+    
+    class var theme: UIColor {
+        return UIColor(red: 29, green: 221, blue: 43, alpha: 1)
+    }
+}
+
