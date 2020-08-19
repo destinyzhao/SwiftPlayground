@@ -91,8 +91,12 @@ extension CollectionViewController: UICollectionViewDelegateFlowLayout, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-       
+        let model = rankList[indexPath.row]
+        let vc = TableViewController(argCon: model.argCon,
+                                     argName: model.argName,
+                                     argValue: model.argValue)
+        vc.title = model.sortName
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 

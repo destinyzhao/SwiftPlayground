@@ -36,6 +36,8 @@ let timeoutClosure = {(endpoint: Endpoint, closure: MoyaProvider<NetworkAPI>.Req
 let NetworkApiProvider = MoyaProvider<NetworkAPI>()
 let NetworkApiLoadingProvider = MoyaProvider<NetworkAPI>(requestClosure: timeoutClosure, plugins: [LoadingPlugin])
 
+var u17Url = "http://app.u17.com/v3/appV3_3/ios/phone"
+
 enum NetworkAPI {
     // 实时天气
     case realtimeWeather(cityId:String)
@@ -43,17 +45,23 @@ enum NetworkAPI {
     case rankList
     // 分类列表
     case categoryList
+    //漫画列表
+    case comicList(argCon: Int, argName: String, argValue: Int, page: Int)
 }
 
 extension NetworkAPI:TargetType{
+    
     public var baseURL: URL{
+        
         switch self {
         case .realtimeWeather:
             return URL(string: "http://weatherapi.market.xiaomi.com/wtr-v2/temp/realtime?cityId=")!
         case .rankList:
-            return URL(string: "http://app.u17.com/v3/appV3_3/ios/phone")!
+            return URL(string: u17Url)!
          case .categoryList:
-            return URL(string: "http://app.u17.com/v3/appV3_3/ios/phone")!
+            return URL(string: u17Url)!
+        case .comicList:
+            return URL(string: u17Url)!
         }
        
     }
@@ -64,6 +72,7 @@ extension NetworkAPI:TargetType{
         case .realtimeWeather: return ""
         case .rankList: return"rank/list"
         case .categoryList: return "sort/mobileCateList"
+        case .comicList: return "list/commonComicList"
         }
     }
     
@@ -79,6 +88,12 @@ extension NetworkAPI:TargetType{
 
         case .realtimeWeather(let cityId):
             parmeters = ["cityId":cityId] as [String : Any]
+            
+        case .comicList(let argCon, let argName, let argValue, let page):
+                   parmeters["argCon"] = argCon
+                   if argName.count > 0 { parmeters["argName"] = argName }
+                   parmeters["argValue"] = argValue
+                   parmeters["page"] = max(1, page)
            
         default: break
         }

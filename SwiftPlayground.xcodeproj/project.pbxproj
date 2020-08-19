@@ -36,6 +36,11 @@
 		DEC96AC424ECFF02001619CF /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AC324ECFF02001619CF /* BaseCollectionViewCell.swift */; };
 		DEC96AC924ED0022001619CF /* RankCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AC724ED0022001619CF /* RankCollectionCell.swift */; };
 		DEC96ACA24ED0022001619CF /* RankCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AC824ED0022001619CF /* RankCollectionCell.xib */; };
+		DEC96ACD24ED138E001619CF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ACB24ED138E001619CF /* TableViewController.swift */; };
+		DEC96ACE24ED138E001619CF /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96ACC24ED138E001619CF /* TableViewController.xib */; };
+		DEC96AD024ED15E1001619CF /* ComicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ACF24ED15E1001619CF /* ComicModel.swift */; };
+		DEC96AD324ED1681001619CF /* ComicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AD124ED1681001619CF /* ComicCell.swift */; };
+		DEC96AD424ED1681001619CF /* ComicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AD224ED1681001619CF /* ComicCell.xib */; };
 		DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */; };
 		DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */; };
 		DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC7024C567E300D1A3A4 /* ViewController.swift */; };
@@ -114,6 +119,11 @@
 		DEC96AC324ECFF02001619CF /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		DEC96AC724ED0022001619CF /* RankCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankCollectionCell.swift; sourceTree = "<group>"; };
 		DEC96AC824ED0022001619CF /* RankCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RankCollectionCell.xib; sourceTree = "<group>"; };
+		DEC96ACB24ED138E001619CF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DEC96ACC24ED138E001619CF /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		DEC96ACF24ED15E1001619CF /* ComicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicModel.swift; sourceTree = "<group>"; };
+		DEC96AD124ED1681001619CF /* ComicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicCell.swift; sourceTree = "<group>"; };
+		DEC96AD224ED1681001619CF /* ComicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComicCell.xib; sourceTree = "<group>"; };
 		DEF3DC6924C567E300D1A3A4 /* SwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -250,6 +260,7 @@
 		DEC96AC524ED000A001619CF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DEC96ACF24ED15E1001619CF /* ComicModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -259,6 +270,8 @@
 			children = (
 				DEC96AC724ED0022001619CF /* RankCollectionCell.swift */,
 				DEC96AC824ED0022001619CF /* RankCollectionCell.xib */,
+				DEC96AD124ED1681001619CF /* ComicCell.swift */,
+				DEC96AD224ED1681001619CF /* ComicCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -362,6 +375,8 @@
 				DEF3DC9724C56C6700D1A3A4 /* SwiftUIKitViewController.xib */,
 				DEC96ABF24ECFD45001619CF /* CollectionViewController.swift */,
 				DEC96AC024ECFD45001619CF /* CollectionViewController.xib */,
+				DEC96ACB24ED138E001619CF /* TableViewController.swift */,
+				DEC96ACC24ED138E001619CF /* TableViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -491,6 +506,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF3DC7924C567E900D1A3A4 /* LaunchScreen.storyboard in Resources */,
+				DEC96AD424ED1681001619CF /* ComicCell.xib in Resources */,
 				DEF3DC7624C567E900D1A3A4 /* Assets.xcassets in Resources */,
 				DEC96ACA24ED0022001619CF /* RankCollectionCell.xib in Resources */,
 				DEC96AAF24ECC38B001619CF /* JsonToObjectViewController.xib in Resources */,
@@ -505,6 +521,7 @@
 				DEF3DC9324C56C3D00D1A3A4 /* SwiftBaseViewController.xib in Resources */,
 				DEF3DCB424C586B600D1A3A4 /* RangeOperatorsViewController.xib in Resources */,
 				DEF3DCB824C58FE700D1A3A4 /* StringViewController.xib in Resources */,
+				DEC96ACE24ED138E001619CF /* TableViewController.xib in Resources */,
 				DEF3DCD324C6D67F00D1A3A4 /* PropertyViewController.xib in Resources */,
 				DEC96AB524ECCA77001619CF /* RankCell.xib in Resources */,
 			);
@@ -565,6 +582,7 @@
 				DEF3DCCE24C6CD6100D1A3A4 /* StructViewController.swift in Sources */,
 				DEC96ABC24ECCCD5001619CF /* RankModel.swift in Sources */,
 				DEF3DD5624CAC7BD00D1A3A4 /* Resolution.swift in Sources */,
+				DEC96AD324ED1681001619CF /* ComicCell.swift in Sources */,
 				DEF3DCAC24C56DD100D1A3A4 /* TabbarItemContentView.swift in Sources */,
 				DEC96AB424ECCA77001619CF /* RankCell.swift in Sources */,
 				DEF3DCAF24C5733F00D1A3A4 /* HelloWorldViewController.swift in Sources */,
@@ -587,6 +605,7 @@
 				DEC96AC924ED0022001619CF /* RankCollectionCell.swift in Sources */,
 				DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */,
 				DEC96A9324E628B7001619CF /* ClosuresViewController.swift in Sources */,
+				DEC96ACD24ED138E001619CF /* TableViewController.swift in Sources */,
 				DEF3DD6424CAE57700D1A3A4 /* MediaItem.swift in Sources */,
 				DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */,
 				DEF3DD6624CAE59A00D1A3A4 /* Movie.swift in Sources */,
@@ -597,6 +616,7 @@
 				DEC96A9824E63F3D001619CF /* SwiftNetworkViewController.swift in Sources */,
 				DEA3130624D95DE5008BF13E /* HigherFunctionViewController.swift in Sources */,
 				DEF3DD6224CAE53300D1A3A4 /* TypeViewController.swift in Sources */,
+				DEC96AD024ED15E1001619CF /* ComicModel.swift in Sources */,
 				DEF3DCAA24C56D8F00D1A3A4 /* BaseViewController.swift in Sources */,
 				DE7D54FA24CE66C600323BCE /* ExtensionDouble.swift in Sources */,
 				DE7D54F824CE667D00323BCE /* ExtensionViewController.swift in Sources */,
