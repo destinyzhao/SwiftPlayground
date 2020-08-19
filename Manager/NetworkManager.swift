@@ -41,6 +41,8 @@ enum NetworkAPI {
     case realtimeWeather(cityId:String)
     //排行列表
     case rankList
+    // 分类列表
+    case categoryList
 }
 
 extension NetworkAPI:TargetType{
@@ -50,7 +52,10 @@ extension NetworkAPI:TargetType{
             return URL(string: "http://weatherapi.market.xiaomi.com/wtr-v2/temp/realtime?cityId=")!
         case .rankList:
             return URL(string: "http://app.u17.com/v3/appV3_3/ios/phone")!
+         case .categoryList:
+            return URL(string: "http://app.u17.com/v3/appV3_3/ios/phone")!
         }
+       
     }
     
     // 对应的不同API path
@@ -58,6 +63,7 @@ extension NetworkAPI:TargetType{
         switch self {
         case .realtimeWeather: return ""
         case .rankList: return"rank/list"
+        case .categoryList: return "sort/mobileCateList"
         }
     }
     

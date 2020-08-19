@@ -31,6 +31,11 @@
 		DEC96ABA24ECCB59001619CF /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AB924ECCB59001619CF /* Global.swift */; };
 		DEC96ABC24ECCCD5001619CF /* RankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ABB24ECCCD5001619CF /* RankModel.swift */; };
 		DEC96ABE24ECF078001619CF /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ABD24ECF078001619CF /* BaseTableViewCell.swift */; };
+		DEC96AC124ECFD45001619CF /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ABF24ECFD45001619CF /* CollectionViewController.swift */; };
+		DEC96AC224ECFD45001619CF /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AC024ECFD45001619CF /* CollectionViewController.xib */; };
+		DEC96AC424ECFF02001619CF /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AC324ECFF02001619CF /* BaseCollectionViewCell.swift */; };
+		DEC96AC924ED0022001619CF /* RankCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AC724ED0022001619CF /* RankCollectionCell.swift */; };
+		DEC96ACA24ED0022001619CF /* RankCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AC824ED0022001619CF /* RankCollectionCell.xib */; };
 		DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */; };
 		DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */; };
 		DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC7024C567E300D1A3A4 /* ViewController.swift */; };
@@ -104,6 +109,11 @@
 		DEC96AB924ECCB59001619CF /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		DEC96ABB24ECCCD5001619CF /* RankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankModel.swift; sourceTree = "<group>"; };
 		DEC96ABD24ECF078001619CF /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		DEC96ABF24ECFD45001619CF /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		DEC96AC024ECFD45001619CF /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		DEC96AC324ECFF02001619CF /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEC96AC724ED0022001619CF /* RankCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankCollectionCell.swift; sourceTree = "<group>"; };
+		DEC96AC824ED0022001619CF /* RankCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RankCollectionCell.xib; sourceTree = "<group>"; };
 		DEF3DC6924C567E300D1A3A4 /* SwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -237,6 +247,22 @@
 			path = Other;
 			sourceTree = SOURCE_ROOT;
 		};
+		DEC96AC524ED000A001619CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEC96AC624ED000A001619CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96AC724ED0022001619CF /* RankCollectionCell.swift */,
+				DEC96AC824ED0022001619CF /* RankCollectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DEF3DC6024C567E300D1A3A4 = {
 			isa = PBXGroup;
 			children = (
@@ -322,6 +348,8 @@
 		DEF3DC8E24C56C2400D1A3A4 /* SwiftUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				DEC96AC524ED000A001619CF /* Model */,
+				DEC96AC624ED000A001619CF /* View */,
 				DEF3DC8F24C56C2400D1A3A4 /* ViewController */,
 			);
 			path = SwiftUIKit;
@@ -332,6 +360,8 @@
 			children = (
 				DEF3DC9624C56C6700D1A3A4 /* SwiftUIKitViewController.swift */,
 				DEF3DC9724C56C6700D1A3A4 /* SwiftUIKitViewController.xib */,
+				DEC96ABF24ECFD45001619CF /* CollectionViewController.swift */,
+				DEC96AC024ECFD45001619CF /* CollectionViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -367,6 +397,7 @@
 			children = (
 				DEF3DCA824C56D8F00D1A3A4 /* BaseViewController.swift */,
 				DEC96ABD24ECF078001619CF /* BaseTableViewCell.swift */,
+				DEC96AC324ECFF02001619CF /* BaseCollectionViewCell.swift */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -461,12 +492,14 @@
 			files = (
 				DEF3DC7924C567E900D1A3A4 /* LaunchScreen.storyboard in Resources */,
 				DEF3DC7624C567E900D1A3A4 /* Assets.xcassets in Resources */,
+				DEC96ACA24ED0022001619CF /* RankCollectionCell.xib in Resources */,
 				DEC96AAF24ECC38B001619CF /* JsonToObjectViewController.xib in Resources */,
 				DEF3DCCF24C6CD6100D1A3A4 /* StructViewController.xib in Resources */,
 				DEC96AA924EBA303001619CF /* MoyaViewController.xib in Resources */,
 				DEF3DCB024C5733F00D1A3A4 /* HelloWorldViewController.xib in Resources */,
 				DEC96A9924E63F3D001619CF /* SwiftNetworkViewController.xib in Resources */,
 				DEF3DC9924C56C6700D1A3A4 /* SwiftUIKitViewController.xib in Resources */,
+				DEC96AC224ECFD45001619CF /* CollectionViewController.xib in Resources */,
 				DEF3DC7424C567E300D1A3A4 /* Main.storyboard in Resources */,
 				DEC96A9D24EA785F001619CF /* AlamofireViewController.xib in Resources */,
 				DEF3DC9324C56C3D00D1A3A4 /* SwiftBaseViewController.xib in Resources */,
@@ -526,6 +559,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC96AC124ECFD45001619CF /* CollectionViewController.swift in Sources */,
 				DEC96AAB24EBB4BE001619CF /* NetworkManager.swift in Sources */,
 				DEF3DC9824C56C6700D1A3A4 /* SwiftUIKitViewController.swift in Sources */,
 				DEF3DCCE24C6CD6100D1A3A4 /* StructViewController.swift in Sources */,
@@ -550,6 +584,7 @@
 				DEA3130024D94ADB008BF13E /* MutatingViewController.swift in Sources */,
 				DEF3DD5A24CAC80100D1A3A4 /* ViewControllerHelper.swift in Sources */,
 				DEC96A9C24EA785F001619CF /* AlamofireViewController.swift in Sources */,
+				DEC96AC924ED0022001619CF /* RankCollectionCell.swift in Sources */,
 				DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */,
 				DEC96A9324E628B7001619CF /* ClosuresViewController.swift in Sources */,
 				DEF3DD6424CAE57700D1A3A4 /* MediaItem.swift in Sources */,
@@ -573,6 +608,7 @@
 				DEF3DD6024CAD4EB00D1A3A4 /* Residence.swift in Sources */,
 				DEF3DD6824CAE5CD00D1A3A4 /* Song.swift in Sources */,
 				DEC96ABE24ECF078001619CF /* BaseTableViewCell.swift in Sources */,
+				DEC96AC424ECFF02001619CF /* BaseCollectionViewCell.swift in Sources */,
 				DEF3DC9224C56C3D00D1A3A4 /* SwiftBaseViewController.swift in Sources */,
 				DEF3DCBF24C59AFD00D1A3A4 /* DictionaryViewController.swift in Sources */,
 				DEA3130224D94B0F008BF13E /* Area.swift in Sources */,

@@ -15,7 +15,7 @@ let ScreenHeight = UIScreen.main.bounds.height
 
 var topVC: UIViewController? {
     var resultVC: UIViewController?
-    resultVC = _topVC(UIApplication.shared.keyWindow?.rootViewController)
+    resultVC = _topVC(UIApplication.shared.windows.first?.rootViewController)
     while resultVC?.presentedViewController != nil {
         resultVC = _topVC(resultVC?.presentedViewController)
     }
