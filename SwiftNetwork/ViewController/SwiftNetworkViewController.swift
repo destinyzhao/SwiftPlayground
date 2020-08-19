@@ -13,11 +13,13 @@ class SwiftNetworkViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let dataArray = ["Alamofire",
-                     "Moya"
+                     "Moya",
+                     "Json转对象"
     ]
     
     let classNameArray = ["AlamofireViewController",
-                          "MoyaViewController"
+                          "MoyaViewController",
+                          "JsonToObjectViewController"
     ]
     
     

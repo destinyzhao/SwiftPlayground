@@ -5,5 +5,8 @@ target 'SwiftPlayground' do
     pod 'Alamofire'
     pod 'HandyJSON'
     pod 'Moya'
+    pod 'MBProgressHUD'
+    pod 'Kingfisher'
+    pod 'Reusable'
     
 end

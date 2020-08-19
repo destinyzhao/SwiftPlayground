@@ -23,7 +23,7 @@ class MoyaViewController: UIViewController {
     }
     /// 基本使用
     func weatherAPI() {
-        NetworkProvider.request(NetworkAPI.realtimeWeather(cityId: "101040100")) { result in
+        NetworkApiProvider.request(NetworkAPI.realtimeWeather(cityId: "101040100")) { result in
             if case .success(let response) = result {
                // 解析数据
                 let jsonDic = try! response.mapJSON() as! NSDictionary
@@ -31,7 +31,6 @@ class MoyaViewController: UIViewController {
             }
         }
         
-
     }
     
     func showAlert(weatherDic:NSDictionary) -> Void {

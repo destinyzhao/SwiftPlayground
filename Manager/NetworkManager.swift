@@ -9,13 +9,38 @@
 import UIKit
 import Moya
 import HandyJSON
+import MBProgressHUD
+
+let LoadingPlugin = NetworkActivityPlugin { (type, target) in
+    guard let vc = topVC else { return }
+    switch type {
+    case .began:
+        MBProgressHUD.hide(for: vc.view, animated: false)
+        MBProgressHUD.showAdded(to: vc.view, animated: true)
+    case .ended:
+        MBProgressHUD.hide(for: vc.view, animated: true)
+    }
+}
+
+let timeoutClosure = {(endpoint: Endpoint, closure: MoyaProvider<NetworkAPI>.RequestResultClosure) -> Void in
+    
+    if var urlRequest = try? endpoint.urlRequest() {
+        urlRequest.timeoutInterval = 20
+        closure(.success(urlRequest))
+    } else {
+        closure(.failure(MoyaError.requestMapping(endpoint.url)))
+    }
+}
 
 // NetworkAPI就是一个遵循TargetType协议的枚举
-let NetworkProvider = MoyaProvider<NetworkAPI>()
+let NetworkApiProvider = MoyaProvider<NetworkAPI>()
+let NetworkApiLoadingProvider = MoyaProvider<NetworkAPI>(requestClosure: timeoutClosure, plugins: [LoadingPlugin])
 
 enum NetworkAPI {
     // 实时天气
     case realtimeWeather(cityId:String)
+    //排行列表
+    case rankList
 }
 
 extension NetworkAPI:TargetType{
@@ -23,6 +48,8 @@ extension NetworkAPI:TargetType{
         switch self {
         case .realtimeWeather:
             return URL(string: "http://weatherapi.market.xiaomi.com/wtr-v2/temp/realtime?cityId=")!
+        case .rankList:
+            return URL(string: "http://app.u17.com/v3/appV3_3/ios/phone")!
         }
     }
     
@@ -30,6 +57,7 @@ extension NetworkAPI:TargetType{
     var path: String {
         switch self {
         case .realtimeWeather: return ""
+        case .rankList: return"rank/list"
         }
     }
     
@@ -45,8 +73,11 @@ extension NetworkAPI:TargetType{
 
         case .realtimeWeather(let cityId):
             parmeters = ["cityId":cityId] as [String : Any]
-            return .requestParameters(parameters: parmeters, encoding: URLEncoding.default)
+           
+        default: break
         }
+        
+         return .requestParameters(parameters: parmeters, encoding: URLEncoding.default)
     }
     
     // 是否执行Alamofire验证
