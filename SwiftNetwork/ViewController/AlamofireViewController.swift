@@ -12,7 +12,7 @@ import HandyJSON
 
 class AlamofireViewController: UIViewController {
     
-    let weatherUrl:String = "http://weatherapi.market.xiaomi.com/wtr-v2/temp/realtime?cityId=101040100"
+    let weatherUrl:String = "http://weatherapi.market.xiaomi.com/wtr-v2/temp/realtime?cityId="
     
 
     override func viewDidLoad() {
@@ -38,12 +38,13 @@ class AlamofireViewController: UIViewController {
     */
     
     func getWeatherInfo() -> Void {
-        Alamofire.request(weatherUrl,method:.get).responseJSON { (response) in
+         let parameters = ["cityId":"101040100"];
+        Alamofire.request(weatherUrl,method:.get,parameters:parameters,encoding: URLEncoding.default).responseJSON { (response) in
             switch response.result {
             case .success(let json ):
                 let jsonDic = json as? NSDictionary
                 print(jsonDic! as NSDictionary);
-                self.showDialog(weatherDic: jsonDic!)
+                self.showAlert(weatherDic: jsonDic!)
                 
                 break
             case .failure(let error):
@@ -53,7 +54,7 @@ class AlamofireViewController: UIViewController {
         }
     }
     
-    func showDialog(weatherDic:NSDictionary) -> Void {
+    func showAlert(weatherDic:NSDictionary) -> Void {
         let dataDic = weatherDic["weatherinfo"] as! NSDictionary
         let temp = dataDic["temp"] as!String
         let sd = dataDic["SD"] as!String

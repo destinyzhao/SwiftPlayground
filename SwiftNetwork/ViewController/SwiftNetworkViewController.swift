@@ -12,10 +12,12 @@ class SwiftNetworkViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let dataArray = ["Alamofire"
+    let dataArray = ["Alamofire",
+                     "Moya"
     ]
     
-    let classNameArray = ["AlamofireViewController"
+    let classNameArray = ["AlamofireViewController",
+                          "MoyaViewController"
     ]
     
     

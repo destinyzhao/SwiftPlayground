@@ -4,5 +4,6 @@ target 'SwiftPlayground' do
     pod 'ESTabBarController-swift'
     pod 'Alamofire'
     pod 'HandyJSON'
+    pod 'Moya'
     
 end
