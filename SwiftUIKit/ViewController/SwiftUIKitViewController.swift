@@ -12,7 +12,7 @@ class SwiftUIKitViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    let dataArray = ["CollectionView Demo"
+    let dataArray = ["CollectionView(九宫格)"
            ]
            
     let classNameArray = ["CollectionViewController"

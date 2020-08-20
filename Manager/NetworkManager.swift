@@ -36,7 +36,6 @@ let timeoutClosure = {(endpoint: Endpoint, closure: MoyaProvider<NetworkAPI>.Req
 let NetworkApiProvider = MoyaProvider<NetworkAPI>()
 let NetworkApiLoadingProvider = MoyaProvider<NetworkAPI>(requestClosure: timeoutClosure, plugins: [LoadingPlugin])
 
-var u17Url = "http://app.u17.com/v3/appV3_3/ios/phone"
 
 enum NetworkAPI {
     // 实时天气
@@ -56,12 +55,9 @@ extension NetworkAPI:TargetType{
         switch self {
         case .realtimeWeather:
             return URL(string: "http://weatherapi.market.xiaomi.com/wtr-v2/temp/realtime?cityId=")!
-        case .rankList:
-            return URL(string: u17Url)!
-         case .categoryList:
-            return URL(string: u17Url)!
-        case .comicList:
-            return URL(string: u17Url)!
+       
+        default:
+            return URL(string: "http://app.u17.com/v3/appV3_3/ios/phone")!
         }
        
     }

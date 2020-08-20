@@ -24,7 +24,7 @@ public class SetupTabbar{
         let uiNavi = BaseNavigationController.init(rootViewController: uiVC)
         
         baseNavi.tabBarItem = ESTabBarItem.init(TabbarItemContentView(), title: "基础", image: UIImage(named: "tabbar_base_n"), selectedImage: UIImage(named: "tabbar_base_s"))
-        networkNavi.tabBarItem = ESTabBarItem.init(TabbarItemContentView(), title: "网络", image: UIImage(named: "tabbar_base_n"), selectedImage: UIImage(named: "tabbar_base_s"))
+        networkNavi.tabBarItem = ESTabBarItem.init(TabbarItemContentView(), title: "网络", image: UIImage(named: "tabbar_net_n"), selectedImage: UIImage(named: "tabbar_net_s"))
         uiNavi.tabBarItem = ESTabBarItem.init(TabbarItemContentView(),title: "UI", image: UIImage(named: "tabbar_uikit_n"), selectedImage: UIImage(named: "tabbar_uikit_s"))
         
         tabBarController.viewControllers = [baseNavi,networkNavi, uiNavi]
