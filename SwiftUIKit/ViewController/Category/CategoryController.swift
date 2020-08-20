@@ -9,7 +9,7 @@
 import UIKit
 import HandyJSON
 
-class CollectionViewController: UIViewController {
+class CategoryController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -20,7 +20,7 @@ class CollectionViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         
-        self.title = "CollectionView Demo"
+        self.title = "分类"
         
         setupUI()
         loadData()
@@ -28,7 +28,8 @@ class CollectionViewController: UIViewController {
     
     
     func setupUI() -> Void {
-        self.collectionView.register(UINib.init(nibName: "RankCollectionCell", bundle: nil), forCellWithReuseIdentifier: "RankCollectionCell")
+        
+        collectionView.register(cellType: RankCollectionCell.self)
         
         let layout = UICollectionViewFlowLayout()
         layout.minimumInteritemSpacing = 0
@@ -64,7 +65,7 @@ class CollectionViewController: UIViewController {
     
 }
 
-extension CollectionViewController: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource{
+extension CategoryController: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource{
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
@@ -92,7 +93,7 @@ extension CollectionViewController: UICollectionViewDelegateFlowLayout, UICollec
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let model = rankList[indexPath.row]
-        let vc = TableViewController(argCon: model.argCon,
+        let vc = DetailRankController(argCon: model.argCon,
                                      argName: model.argName,
                                      argValue: model.argValue)
         vc.title = model.sortName

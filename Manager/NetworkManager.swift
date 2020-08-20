@@ -46,6 +46,8 @@ enum NetworkAPI {
     case categoryList
     //漫画列表
     case comicList(argCon: Int, argName: String, argValue: Int, page: Int)
+    //订阅列表
+    case subscribeList
 }
 
 extension NetworkAPI:TargetType{
@@ -69,6 +71,7 @@ extension NetworkAPI:TargetType{
         case .rankList: return"rank/list"
         case .categoryList: return "sort/mobileCateList"
         case .comicList: return "list/commonComicList"
+        case .subscribeList: return "list/newSubscribeList"
         }
     }
     

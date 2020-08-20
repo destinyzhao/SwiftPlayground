@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RankCollectionCell: BaseCollectionViewCell {
+class RankCollectionCell: BaseCollectionNibCell {
     @IBOutlet weak var iconView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var bgView: UIView!

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ComicCell: BaseTableViewCell {
+class ComicCell: BaseTableViewNibCell {
 
     @IBOutlet weak var iconView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!

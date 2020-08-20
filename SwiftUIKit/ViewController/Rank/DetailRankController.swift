@@ -9,7 +9,7 @@
 import UIKit
 import HandyJSON
 
-class TableViewController: UIViewController {
+class DetailRankController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -37,7 +37,7 @@ class TableViewController: UIViewController {
     }
     
     func setupUI() -> Void {
-        tableView.register(UINib (nibName: "ComicCell", bundle: nil), forCellReuseIdentifier: "ComicCell")
+        tableView.register(cellType: ComicCell.self)
         tableView.uHead = URefreshHeader { [weak self] in self?.loadData(more: false) }
         tableView.uFoot = URefreshFooter { [weak self] in self?.loadData(more: true) }
         tableView.uempty = UEmptyView { [weak self] in self?.loadData(more: false) }
@@ -84,7 +84,7 @@ class TableViewController: UIViewController {
     
 }
 
-extension TableViewController:UITableViewDelegate,UITableViewDataSource{
+extension DetailRankController:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return comicList.count;
     }

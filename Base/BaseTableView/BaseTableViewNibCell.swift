@@ -9,7 +9,7 @@
 import UIKit
 import Reusable
 
-class BaseTableViewCell: UITableViewCell,Reusable {
+class BaseTableViewNibCell: UITableViewCell,NibReusable {
 
     override func awakeFromNib() {
         super.awakeFromNib()

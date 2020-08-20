@@ -30,19 +30,29 @@
 		DEC96AB524ECCA77001619CF /* RankCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AB324ECCA77001619CF /* RankCell.xib */; };
 		DEC96ABA24ECCB59001619CF /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AB924ECCB59001619CF /* Global.swift */; };
 		DEC96ABC24ECCCD5001619CF /* RankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ABB24ECCCD5001619CF /* RankModel.swift */; };
-		DEC96ABE24ECF078001619CF /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ABD24ECF078001619CF /* BaseTableViewCell.swift */; };
-		DEC96AC124ECFD45001619CF /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ABF24ECFD45001619CF /* CollectionViewController.swift */; };
-		DEC96AC224ECFD45001619CF /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AC024ECFD45001619CF /* CollectionViewController.xib */; };
-		DEC96AC424ECFF02001619CF /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AC324ECFF02001619CF /* BaseCollectionViewCell.swift */; };
+		DEC96ABE24ECF078001619CF /* BaseTableViewNibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ABD24ECF078001619CF /* BaseTableViewNibCell.swift */; };
+		DEC96AC124ECFD45001619CF /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ABF24ECFD45001619CF /* CategoryController.swift */; };
+		DEC96AC224ECFD45001619CF /* CategoryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AC024ECFD45001619CF /* CategoryController.xib */; };
+		DEC96AC424ECFF02001619CF /* BaseCollectionNibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AC324ECFF02001619CF /* BaseCollectionNibCell.swift */; };
 		DEC96AC924ED0022001619CF /* RankCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AC724ED0022001619CF /* RankCollectionCell.swift */; };
 		DEC96ACA24ED0022001619CF /* RankCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AC824ED0022001619CF /* RankCollectionCell.xib */; };
-		DEC96ACD24ED138E001619CF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ACB24ED138E001619CF /* TableViewController.swift */; };
-		DEC96ACE24ED138E001619CF /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96ACC24ED138E001619CF /* TableViewController.xib */; };
+		DEC96ACD24ED138E001619CF /* DetailRankController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ACB24ED138E001619CF /* DetailRankController.swift */; };
+		DEC96ACE24ED138E001619CF /* DetailRankController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96ACC24ED138E001619CF /* DetailRankController.xib */; };
 		DEC96AD024ED15E1001619CF /* ComicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ACF24ED15E1001619CF /* ComicModel.swift */; };
 		DEC96AD324ED1681001619CF /* ComicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AD124ED1681001619CF /* ComicCell.swift */; };
 		DEC96AD424ED1681001619CF /* ComicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AD224ED1681001619CF /* ComicCell.xib */; };
 		DEC96AD824ED250F001619CF /* URefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AD724ED250F001619CF /* URefresh.swift */; };
 		DEC96ADB24ED2665001619CF /* UEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96ADA24ED2665001619CF /* UEmptyDataSet.swift */; };
+		DEC96AE224EE03BC001619CF /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AE024EE03BC001619CF /* SubscribeViewController.swift */; };
+		DEC96AE324EE03BC001619CF /* SubscribeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AE124EE03BC001619CF /* SubscribeViewController.xib */; };
+		DEC96AEA24EE0595001619CF /* SubscribeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AE824EE0595001619CF /* SubscribeHeader.swift */; };
+		DEC96AEB24EE0595001619CF /* SubscribeHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AE924EE0595001619CF /* SubscribeHeader.xib */; };
+		DEC96AEF24EE062A001619CF /* BaseCollectionReusableNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AEE24EE062A001619CF /* BaseCollectionReusableNib.swift */; };
+		DEC96AF224EE066F001619CF /* SubscribeFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AF024EE066F001619CF /* SubscribeFooter.swift */; };
+		DEC96AF324EE066F001619CF /* SubscribeFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AF124EE066F001619CF /* SubscribeFooter.xib */; };
+		DEC96AF624EE06A8001619CF /* SubscribeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AF424EE06A8001619CF /* SubscribeCell.swift */; };
+		DEC96AF724EE06A8001619CF /* SubscribeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AF524EE06A8001619CF /* SubscribeCell.xib */; };
+		DEC96B0024EE133B001619CF /* SubscribeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AFF24EE133B001619CF /* SubscribeModel.swift */; };
 		DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */; };
 		DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */; };
 		DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC7024C567E300D1A3A4 /* ViewController.swift */; };
@@ -115,19 +125,29 @@
 		DEC96AB324ECCA77001619CF /* RankCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RankCell.xib; sourceTree = "<group>"; };
 		DEC96AB924ECCB59001619CF /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		DEC96ABB24ECCCD5001619CF /* RankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankModel.swift; sourceTree = "<group>"; };
-		DEC96ABD24ECF078001619CF /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
-		DEC96ABF24ECFD45001619CF /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		DEC96AC024ECFD45001619CF /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
-		DEC96AC324ECFF02001619CF /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEC96ABD24ECF078001619CF /* BaseTableViewNibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewNibCell.swift; sourceTree = "<group>"; };
+		DEC96ABF24ECFD45001619CF /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		DEC96AC024ECFD45001619CF /* CategoryController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryController.xib; sourceTree = "<group>"; };
+		DEC96AC324ECFF02001619CF /* BaseCollectionNibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionNibCell.swift; sourceTree = "<group>"; };
 		DEC96AC724ED0022001619CF /* RankCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankCollectionCell.swift; sourceTree = "<group>"; };
 		DEC96AC824ED0022001619CF /* RankCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RankCollectionCell.xib; sourceTree = "<group>"; };
-		DEC96ACB24ED138E001619CF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		DEC96ACC24ED138E001619CF /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		DEC96ACB24ED138E001619CF /* DetailRankController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRankController.swift; sourceTree = "<group>"; };
+		DEC96ACC24ED138E001619CF /* DetailRankController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailRankController.xib; sourceTree = "<group>"; };
 		DEC96ACF24ED15E1001619CF /* ComicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicModel.swift; sourceTree = "<group>"; };
 		DEC96AD124ED1681001619CF /* ComicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicCell.swift; sourceTree = "<group>"; };
 		DEC96AD224ED1681001619CF /* ComicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComicCell.xib; sourceTree = "<group>"; };
 		DEC96AD724ED250F001619CF /* URefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URefresh.swift; sourceTree = "<group>"; };
 		DEC96ADA24ED2665001619CF /* UEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UEmptyDataSet.swift; sourceTree = "<group>"; };
+		DEC96AE024EE03BC001619CF /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
+		DEC96AE124EE03BC001619CF /* SubscribeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscribeViewController.xib; sourceTree = "<group>"; };
+		DEC96AE824EE0595001619CF /* SubscribeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeHeader.swift; sourceTree = "<group>"; };
+		DEC96AE924EE0595001619CF /* SubscribeHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscribeHeader.xib; sourceTree = "<group>"; };
+		DEC96AEE24EE062A001619CF /* BaseCollectionReusableNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionReusableNib.swift; sourceTree = "<group>"; };
+		DEC96AF024EE066F001619CF /* SubscribeFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeFooter.swift; sourceTree = "<group>"; };
+		DEC96AF124EE066F001619CF /* SubscribeFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscribeFooter.xib; sourceTree = "<group>"; };
+		DEC96AF424EE06A8001619CF /* SubscribeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeCell.swift; sourceTree = "<group>"; };
+		DEC96AF524EE06A8001619CF /* SubscribeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscribeCell.xib; sourceTree = "<group>"; };
+		DEC96AFF24EE133B001619CF /* SubscribeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeModel.swift; sourceTree = "<group>"; };
 		DEF3DC6924C567E300D1A3A4 /* SwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -265,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				DEC96ACF24ED15E1001619CF /* ComicModel.swift */,
+				DEC96AFF24EE133B001619CF /* SubscribeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -272,10 +293,9 @@
 		DEC96AC624ED000A001619CF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DEC96AC724ED0022001619CF /* RankCollectionCell.swift */,
-				DEC96AC824ED0022001619CF /* RankCollectionCell.xib */,
-				DEC96AD124ED1681001619CF /* ComicCell.swift */,
-				DEC96AD224ED1681001619CF /* ComicCell.xib */,
+				DEC96AFA24EE0A66001619CF /* Comic */,
+				DEC96AF824EE0A40001619CF /* Rank */,
+				DEC96AF924EE0A40001619CF /* Subscribe */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +323,90 @@
 				DEC96ADA24ED2665001619CF /* UEmptyDataSet.swift */,
 			);
 			path = EmptyDataSet;
+			sourceTree = "<group>";
+		};
+		DEC96AEC24EE0607001619CF /* BaseCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96AC324ECFF02001619CF /* BaseCollectionNibCell.swift */,
+				DEC96AEE24EE062A001619CF /* BaseCollectionReusableNib.swift */,
+			);
+			path = BaseCollectionView;
+			sourceTree = "<group>";
+		};
+		DEC96AED24EE0607001619CF /* BaseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96ABD24ECF078001619CF /* BaseTableViewNibCell.swift */,
+			);
+			path = BaseTableView;
+			sourceTree = "<group>";
+		};
+		DEC96AF824EE0A40001619CF /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96AC724ED0022001619CF /* RankCollectionCell.swift */,
+				DEC96AC824ED0022001619CF /* RankCollectionCell.xib */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		DEC96AF924EE0A40001619CF /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96AE824EE0595001619CF /* SubscribeHeader.swift */,
+				DEC96AE924EE0595001619CF /* SubscribeHeader.xib */,
+				DEC96AF024EE066F001619CF /* SubscribeFooter.swift */,
+				DEC96AF124EE066F001619CF /* SubscribeFooter.xib */,
+				DEC96AF424EE06A8001619CF /* SubscribeCell.swift */,
+				DEC96AF524EE06A8001619CF /* SubscribeCell.xib */,
+			);
+			path = Subscribe;
+			sourceTree = "<group>";
+		};
+		DEC96AFA24EE0A66001619CF /* Comic */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96AD124ED1681001619CF /* ComicCell.swift */,
+				DEC96AD224ED1681001619CF /* ComicCell.xib */,
+			);
+			path = Comic;
+			sourceTree = "<group>";
+		};
+		DEC96AFB24EE0ACE001619CF /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96AE024EE03BC001619CF /* SubscribeViewController.swift */,
+				DEC96AE124EE03BC001619CF /* SubscribeViewController.xib */,
+			);
+			path = Subscribe;
+			sourceTree = "<group>";
+		};
+		DEC96AFC24EE0ACE001619CF /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3DC9624C56C6700D1A3A4 /* SwiftUIKitViewController.swift */,
+				DEF3DC9724C56C6700D1A3A4 /* SwiftUIKitViewController.xib */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		DEC96AFD24EE0ACE001619CF /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96ACB24ED138E001619CF /* DetailRankController.swift */,
+				DEC96ACC24ED138E001619CF /* DetailRankController.xib */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		DEC96AFE24EE0C1E001619CF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96ABF24ECFD45001619CF /* CategoryController.swift */,
+				DEC96AC024ECFD45001619CF /* CategoryController.xib */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		DEF3DC6024C567E300D1A3A4 = {
@@ -401,12 +505,10 @@
 		DEF3DC8F24C56C2400D1A3A4 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DEF3DC9624C56C6700D1A3A4 /* SwiftUIKitViewController.swift */,
-				DEF3DC9724C56C6700D1A3A4 /* SwiftUIKitViewController.xib */,
-				DEC96ABF24ECFD45001619CF /* CollectionViewController.swift */,
-				DEC96AC024ECFD45001619CF /* CollectionViewController.xib */,
-				DEC96ACB24ED138E001619CF /* TableViewController.swift */,
-				DEC96ACC24ED138E001619CF /* TableViewController.xib */,
+				DEC96AFE24EE0C1E001619CF /* Category */,
+				DEC96AFB24EE0ACE001619CF /* Subscribe */,
+				DEC96AFC24EE0ACE001619CF /* SwiftUI */,
+				DEC96AFD24EE0ACE001619CF /* Rank */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -423,6 +525,8 @@
 		DEF3DCA424C56D8F00D1A3A4 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				DEC96AEC24EE0607001619CF /* BaseCollectionView */,
+				DEC96AED24EE0607001619CF /* BaseTableView */,
 				DEF3DCA524C56D8F00D1A3A4 /* BaseNavigationController */,
 				DEF3DCA724C56D8F00D1A3A4 /* BaseViewController */,
 			);
@@ -441,8 +545,6 @@
 			isa = PBXGroup;
 			children = (
 				DEF3DCA824C56D8F00D1A3A4 /* BaseViewController.swift */,
-				DEC96ABD24ECF078001619CF /* BaseTableViewCell.swift */,
-				DEC96AC324ECFF02001619CF /* BaseCollectionViewCell.swift */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -537,21 +639,25 @@
 			files = (
 				DEF3DC7924C567E900D1A3A4 /* LaunchScreen.storyboard in Resources */,
 				DEC96AD424ED1681001619CF /* ComicCell.xib in Resources */,
+				DEC96AEB24EE0595001619CF /* SubscribeHeader.xib in Resources */,
 				DEF3DC7624C567E900D1A3A4 /* Assets.xcassets in Resources */,
 				DEC96ACA24ED0022001619CF /* RankCollectionCell.xib in Resources */,
+				DEC96AF324EE066F001619CF /* SubscribeFooter.xib in Resources */,
 				DEC96AAF24ECC38B001619CF /* JsonToObjectViewController.xib in Resources */,
 				DEF3DCCF24C6CD6100D1A3A4 /* StructViewController.xib in Resources */,
 				DEC96AA924EBA303001619CF /* MoyaViewController.xib in Resources */,
 				DEF3DCB024C5733F00D1A3A4 /* HelloWorldViewController.xib in Resources */,
 				DEC96A9924E63F3D001619CF /* SwiftNetworkViewController.xib in Resources */,
+				DEC96AE324EE03BC001619CF /* SubscribeViewController.xib in Resources */,
 				DEF3DC9924C56C6700D1A3A4 /* SwiftUIKitViewController.xib in Resources */,
-				DEC96AC224ECFD45001619CF /* CollectionViewController.xib in Resources */,
+				DEC96AC224ECFD45001619CF /* CategoryController.xib in Resources */,
 				DEF3DC7424C567E300D1A3A4 /* Main.storyboard in Resources */,
 				DEC96A9D24EA785F001619CF /* AlamofireViewController.xib in Resources */,
+				DEC96AF724EE06A8001619CF /* SubscribeCell.xib in Resources */,
 				DEF3DC9324C56C3D00D1A3A4 /* SwiftBaseViewController.xib in Resources */,
 				DEF3DCB424C586B600D1A3A4 /* RangeOperatorsViewController.xib in Resources */,
 				DEF3DCB824C58FE700D1A3A4 /* StringViewController.xib in Resources */,
-				DEC96ACE24ED138E001619CF /* TableViewController.xib in Resources */,
+				DEC96ACE24ED138E001619CF /* DetailRankController.xib in Resources */,
 				DEF3DCD324C6D67F00D1A3A4 /* PropertyViewController.xib in Resources */,
 				DEC96AB524ECCA77001619CF /* RankCell.xib in Resources */,
 			);
@@ -606,7 +712,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEC96AC124ECFD45001619CF /* CollectionViewController.swift in Sources */,
+				DEC96AC124ECFD45001619CF /* CategoryController.swift in Sources */,
 				DEC96AAB24EBB4BE001619CF /* NetworkManager.swift in Sources */,
 				DEF3DC9824C56C6700D1A3A4 /* SwiftUIKitViewController.swift in Sources */,
 				DEF3DCCE24C6CD6100D1A3A4 /* StructViewController.swift in Sources */,
@@ -615,12 +721,16 @@
 				DEC96AD324ED1681001619CF /* ComicCell.swift in Sources */,
 				DEF3DCAC24C56DD100D1A3A4 /* TabbarItemContentView.swift in Sources */,
 				DEC96AB424ECCA77001619CF /* RankCell.swift in Sources */,
+				DEC96AE224EE03BC001619CF /* SubscribeViewController.swift in Sources */,
 				DEF3DCAF24C5733F00D1A3A4 /* HelloWorldViewController.swift in Sources */,
+				DEC96AF224EE066F001619CF /* SubscribeFooter.swift in Sources */,
 				DEC96A8F24E61FFE001619CF /* TupleViewController.swift in Sources */,
 				DEC96A8B24E618BA001619CF /* ARCViewController.swift in Sources */,
 				DEF3DD4F24CAC75200D1A3A4 /* OptionalViewController.swift in Sources */,
 				DEC96AD824ED250F001619CF /* URefresh.swift in Sources */,
+				DEC96AF624EE06A8001619CF /* SubscribeCell.swift in Sources */,
 				DEF3DD5424CAC7BD00D1A3A4 /* StepCounter.swift in Sources */,
+				DEC96AEF24EE062A001619CF /* BaseCollectionReusableNib.swift in Sources */,
 				DEC96AAE24ECC38B001619CF /* JsonToObjectViewController.swift in Sources */,
 				DEF3DCD224C6D67F00D1A3A4 /* PropertyViewController.swift in Sources */,
 				DEF3DD4A24CAAF3700D1A3A4 /* ArraySortViewController.swift in Sources */,
@@ -636,7 +746,7 @@
 				DEC96AC924ED0022001619CF /* RankCollectionCell.swift in Sources */,
 				DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */,
 				DEC96A9324E628B7001619CF /* ClosuresViewController.swift in Sources */,
-				DEC96ACD24ED138E001619CF /* TableViewController.swift in Sources */,
+				DEC96ACD24ED138E001619CF /* DetailRankController.swift in Sources */,
 				DEF3DD6424CAE57700D1A3A4 /* MediaItem.swift in Sources */,
 				DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */,
 				DEF3DD6624CAE59A00D1A3A4 /* Movie.swift in Sources */,
@@ -658,9 +768,11 @@
 				DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */,
 				DEF3DD6024CAD4EB00D1A3A4 /* Residence.swift in Sources */,
 				DEF3DD6824CAE5CD00D1A3A4 /* Song.swift in Sources */,
-				DEC96ABE24ECF078001619CF /* BaseTableViewCell.swift in Sources */,
-				DEC96AC424ECFF02001619CF /* BaseCollectionViewCell.swift in Sources */,
+				DEC96ABE24ECF078001619CF /* BaseTableViewNibCell.swift in Sources */,
+				DEC96AC424ECFF02001619CF /* BaseCollectionNibCell.swift in Sources */,
 				DEF3DC9224C56C3D00D1A3A4 /* SwiftBaseViewController.swift in Sources */,
+				DEC96AEA24EE0595001619CF /* SubscribeHeader.swift in Sources */,
+				DEC96B0024EE133B001619CF /* SubscribeModel.swift in Sources */,
 				DEF3DCBF24C59AFD00D1A3A4 /* DictionaryViewController.swift in Sources */,
 				DEA3130224D94B0F008BF13E /* Area.swift in Sources */,
 				DEF3DCB724C58FE700D1A3A4 /* StringViewController.swift in Sources */,

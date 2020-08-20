@@ -7,9 +7,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TableViewController" customModule="SwiftPlayground" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubscribeViewController" customModule="SwiftPlayground" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="WQK-ZN-b5h" id="95a-AT-FdN"/>
+                <outlet property="collectionView" destination="Qb8-Vr-26A" id="NsU-tM-TBN"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,21 +18,27 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WQK-ZN-b5h">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Qb8-Vr-26A">
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kjW-GY-CCE">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
                     <connections>
-                        <outlet property="dataSource" destination="-1" id="BrX-r3-vaC"/>
-                        <outlet property="delegate" destination="-1" id="0IB-x6-45a"/>
+                        <outlet property="dataSource" destination="-1" id="Nlp-oA-YM1"/>
+                        <outlet property="delegate" destination="-1" id="Yxf-3X-cqt"/>
                     </connections>
-                </tableView>
+                </collectionView>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
-                <constraint firstItem="WQK-ZN-b5h" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="63q-W2-jFl"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="WQK-ZN-b5h" secondAttribute="bottom" id="KVR-tY-7p1"/>
-                <constraint firstItem="WQK-ZN-b5h" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="bA8-aB-Xr1"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WQK-ZN-b5h" secondAttribute="trailing" id="wye-uz-PRz"/>
+                <constraint firstItem="Qb8-Vr-26A" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="BV4-Zx-l6G"/>
+                <constraint firstItem="Qb8-Vr-26A" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="OQI-23-qgE"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Qb8-Vr-26A" secondAttribute="trailing" id="Upt-A8-nFY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Qb8-Vr-26A" secondAttribute="bottom" id="Zae-8n-0a1"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="139" y="88"/>

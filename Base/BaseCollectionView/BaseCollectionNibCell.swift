@@ -9,6 +9,6 @@
 import UIKit
 import Reusable
 
-class BaseCollectionViewCell: UICollectionViewCell,Reusable {
+class BaseCollectionNibCell: UICollectionViewCell,NibReusable {
     
 }

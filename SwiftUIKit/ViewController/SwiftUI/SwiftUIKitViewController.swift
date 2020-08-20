@@ -12,10 +12,12 @@ class SwiftUIKitViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    let dataArray = ["CollectionView(九宫格)"
+    let dataArray = ["CollectionView(分类)",
+                     "CollectionView(订阅)"
            ]
            
-    let classNameArray = ["CollectionViewController"
+    let classNameArray = ["CategoryController",
+                          "SubscribeViewController"
            ]
     
     override func viewDidLoad() {

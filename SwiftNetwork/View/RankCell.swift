@@ -10,7 +10,7 @@ import UIKit
 import Kingfisher
 import Reusable
 
-class RankCell: BaseTableViewCell {
+class RankCell: BaseTableViewNibCell {
 
     @IBOutlet weak var iconView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
