@@ -9,7 +9,7 @@
 import UIKit
 import HandyJSON
 
-class DetailRankController: UIViewController {
+class DetailRankController: BaseViewController {
     
     @IBOutlet weak var tableView: UITableView!
     

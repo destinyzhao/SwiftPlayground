@@ -10,7 +10,7 @@ import UIKit
 import HandyJSON
 import Reusable
 
-class JsonToObjectViewController: UIViewController {
+class JsonToObjectViewController: BaseViewController {
     
     @IBOutlet weak var tableView: UITableView!
     

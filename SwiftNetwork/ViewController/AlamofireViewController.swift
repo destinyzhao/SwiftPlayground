@@ -10,7 +10,7 @@ import UIKit
 import Alamofire
 import HandyJSON
 
-class AlamofireViewController: UIViewController {
+class AlamofireViewController: BaseViewController {
     
     let weatherUrl:String = "http://weatherapi.market.xiaomi.com/wtr-v2/temp/realtime?cityId="
     

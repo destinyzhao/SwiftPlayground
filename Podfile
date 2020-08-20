@@ -10,5 +10,7 @@ target 'SwiftPlayground' do
     pod 'Reusable'
     pod 'MJRefresh'
     pod 'EmptyDataSet-Swift'
+    pod 'SnapKit'
+    pod 'ParallaxHeader'
     
 end

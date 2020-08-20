@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SwiftBaseViewController: UIViewController {
+class SwiftBaseViewController: BaseViewController {
     
     @IBOutlet weak var tableView: UITableView!
     

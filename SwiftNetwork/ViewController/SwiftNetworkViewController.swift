@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SwiftNetworkViewController: UIViewController {
+class SwiftNetworkViewController: BaseViewController {
     
     @IBOutlet weak var tableView: UITableView!
     

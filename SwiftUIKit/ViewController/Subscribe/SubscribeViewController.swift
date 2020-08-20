@@ -9,7 +9,7 @@
 import UIKit
 import HandyJSON
 
-class SubscribeViewController: UIViewController {
+class SubscribeViewController: BaseViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     

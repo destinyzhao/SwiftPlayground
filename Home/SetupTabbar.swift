@@ -18,16 +18,20 @@ public class SetupTabbar{
         networkVC.title = "Swift网络";
         let uiVC = SwiftUIKitViewController()
         uiVC.title = "Swift UI控件";
+        let mineVC = MineController()
+        mineVC.title = "我的"
         
         let baseNavi = BaseNavigationController.init(rootViewController: baseVC)
         let networkNavi = BaseNavigationController.init(rootViewController: networkVC)
         let uiNavi = BaseNavigationController.init(rootViewController: uiVC)
+        let mineNavi = BaseNavigationController.init(rootViewController: mineVC)
         
         baseNavi.tabBarItem = ESTabBarItem.init(TabbarItemContentView(), title: "基础", image: UIImage(named: "tabbar_base_n"), selectedImage: UIImage(named: "tabbar_base_s"))
         networkNavi.tabBarItem = ESTabBarItem.init(TabbarItemContentView(), title: "网络", image: UIImage(named: "tabbar_net_n"), selectedImage: UIImage(named: "tabbar_net_s"))
         uiNavi.tabBarItem = ESTabBarItem.init(TabbarItemContentView(),title: "UI", image: UIImage(named: "tabbar_uikit_n"), selectedImage: UIImage(named: "tabbar_uikit_s"))
+        mineNavi.tabBarItem = ESTabBarItem.init(TabbarItemContentView(),title: "我的", image: UIImage(named: "tabbar_mine_n"), selectedImage: UIImage(named: "tabbar_mine_s"))
         
-        tabBarController.viewControllers = [baseNavi,networkNavi, uiNavi]
+        tabBarController.viewControllers = [baseNavi,networkNavi, uiNavi,mineNavi]
         
         return tabBarController
     }

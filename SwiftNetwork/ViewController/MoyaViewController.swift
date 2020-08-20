@@ -9,7 +9,7 @@
 import UIKit
 
 
-class MoyaViewController: UIViewController {
+class MoyaViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

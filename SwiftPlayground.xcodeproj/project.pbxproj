@@ -53,6 +53,19 @@
 		DEC96AF624EE06A8001619CF /* SubscribeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AF424EE06A8001619CF /* SubscribeCell.swift */; };
 		DEC96AF724EE06A8001619CF /* SubscribeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96AF524EE06A8001619CF /* SubscribeCell.xib */; };
 		DEC96B0024EE133B001619CF /* SubscribeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96AFF24EE133B001619CF /* SubscribeModel.swift */; };
+		DEC96B0724EE21BD001619CF /* MineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96B0524EE21BD001619CF /* MineController.swift */; };
+		DEC96B0B24EE2367001619CF /* MineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96B0924EE2367001619CF /* MineCell.swift */; };
+		DEC96B0C24EE2367001619CF /* MineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC96B0A24EE2367001619CF /* MineCell.xib */; };
+		DEC96B0E24EE240C001619CF /* MineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96B0D24EE240C001619CF /* MineHeaderView.swift */; };
+		DEC96B1924EE2ACD001619CF /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96B1024EE2ACD001619CF /* ArrayExtensions.swift */; };
+		DEC96B1A24EE2ACD001619CF /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96B1124EE2ACD001619CF /* UIColorExtension.swift */; };
+		DEC96B1B24EE2ACD001619CF /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96B1224EE2ACD001619CF /* UIViewExtension.swift */; };
+		DEC96B1C24EE2ACD001619CF /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96B1324EE2ACD001619CF /* UIBarButtonItemExtension.swift */; };
+		DEC96B1D24EE2ACD001619CF /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96B1424EE2ACD001619CF /* UIDeviceExtension.swift */; };
+		DEC96B1E24EE2ACD001619CF /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96B1524EE2ACD001619CF /* UIImageExtensions.swift */; };
+		DEC96B1F24EE2ACD001619CF /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96B1624EE2ACD001619CF /* DispatchQueueExtension.swift */; };
+		DEC96B2024EE2ACD001619CF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96B1724EE2ACD001619CF /* StringExtension.swift */; };
+		DEC96B2124EE2ACD001619CF /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96B1824EE2ACD001619CF /* DictionaryExtension.swift */; };
 		DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */; };
 		DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */; };
 		DEF3DC7124C567E300D1A3A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3DC7024C567E300D1A3A4 /* ViewController.swift */; };
@@ -148,6 +161,19 @@
 		DEC96AF424EE06A8001619CF /* SubscribeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeCell.swift; sourceTree = "<group>"; };
 		DEC96AF524EE06A8001619CF /* SubscribeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscribeCell.xib; sourceTree = "<group>"; };
 		DEC96AFF24EE133B001619CF /* SubscribeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeModel.swift; sourceTree = "<group>"; };
+		DEC96B0524EE21BD001619CF /* MineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineController.swift; sourceTree = "<group>"; };
+		DEC96B0924EE2367001619CF /* MineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineCell.swift; sourceTree = "<group>"; };
+		DEC96B0A24EE2367001619CF /* MineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineCell.xib; sourceTree = "<group>"; };
+		DEC96B0D24EE240C001619CF /* MineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineHeaderView.swift; sourceTree = "<group>"; };
+		DEC96B1024EE2ACD001619CF /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		DEC96B1124EE2ACD001619CF /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DEC96B1224EE2ACD001619CF /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		DEC96B1324EE2ACD001619CF /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
+		DEC96B1424EE2ACD001619CF /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		DEC96B1524EE2ACD001619CF /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		DEC96B1624EE2ACD001619CF /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
+		DEC96B1724EE2ACD001619CF /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		DEC96B1824EE2ACD001619CF /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
 		DEF3DC6924C567E300D1A3A4 /* SwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -303,6 +329,7 @@
 		DEC96AD524ED250F001619CF /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				DEC96B0F24EE2ACD001619CF /* Extension */,
 				DEC96AD924ED2665001619CF /* EmptyDataSet */,
 				DEC96AD624ED250F001619CF /* Refresh */,
 			);
@@ -409,6 +436,57 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		DEC96B0124EE2146001619CF /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96B0224EE2146001619CF /* Controller */,
+				DEC96B0324EE2146001619CF /* Model */,
+				DEC96B0424EE2146001619CF /* View */,
+			);
+			path = Mine;
+			sourceTree = SOURCE_ROOT;
+		};
+		DEC96B0224EE2146001619CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96B0524EE21BD001619CF /* MineController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DEC96B0324EE2146001619CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEC96B0424EE2146001619CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96B0924EE2367001619CF /* MineCell.swift */,
+				DEC96B0A24EE2367001619CF /* MineCell.xib */,
+				DEC96B0D24EE240C001619CF /* MineHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEC96B0F24EE2ACD001619CF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96B1024EE2ACD001619CF /* ArrayExtensions.swift */,
+				DEC96B1124EE2ACD001619CF /* UIColorExtension.swift */,
+				DEC96B1224EE2ACD001619CF /* UIViewExtension.swift */,
+				DEC96B1324EE2ACD001619CF /* UIBarButtonItemExtension.swift */,
+				DEC96B1424EE2ACD001619CF /* UIDeviceExtension.swift */,
+				DEC96B1524EE2ACD001619CF /* UIImageExtensions.swift */,
+				DEC96B1624EE2ACD001619CF /* DispatchQueueExtension.swift */,
+				DEC96B1724EE2ACD001619CF /* StringExtension.swift */,
+				DEC96B1824EE2ACD001619CF /* DictionaryExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		DEF3DC6024C567E300D1A3A4 = {
 			isa = PBXGroup;
 			children = (
@@ -440,6 +518,7 @@
 				DEF3DC8C24C56C2400D1A3A4 /* SwiftBase */,
 				DEC96A9424E63F1C001619CF /* SwiftNetwork */,
 				DEF3DC8E24C56C2400D1A3A4 /* SwiftUIKit */,
+				DEC96B0124EE2146001619CF /* Mine */,
 				DEF3DC6C24C567E300D1A3A4 /* AppDelegate.swift */,
 				DEF3DC6E24C567E300D1A3A4 /* SceneDelegate.swift */,
 				DEF3DC7024C567E300D1A3A4 /* ViewController.swift */,
@@ -654,6 +733,7 @@
 				DEF3DC7424C567E300D1A3A4 /* Main.storyboard in Resources */,
 				DEC96A9D24EA785F001619CF /* AlamofireViewController.xib in Resources */,
 				DEC96AF724EE06A8001619CF /* SubscribeCell.xib in Resources */,
+				DEC96B0C24EE2367001619CF /* MineCell.xib in Resources */,
 				DEF3DC9324C56C3D00D1A3A4 /* SwiftBaseViewController.xib in Resources */,
 				DEF3DCB424C586B600D1A3A4 /* RangeOperatorsViewController.xib in Resources */,
 				DEF3DCB824C58FE700D1A3A4 /* StringViewController.xib in Resources */,
@@ -716,6 +796,8 @@
 				DEC96AAB24EBB4BE001619CF /* NetworkManager.swift in Sources */,
 				DEF3DC9824C56C6700D1A3A4 /* SwiftUIKitViewController.swift in Sources */,
 				DEF3DCCE24C6CD6100D1A3A4 /* StructViewController.swift in Sources */,
+				DEC96B1924EE2ACD001619CF /* ArrayExtensions.swift in Sources */,
+				DEC96B2124EE2ACD001619CF /* DictionaryExtension.swift in Sources */,
 				DEC96ABC24ECCCD5001619CF /* RankModel.swift in Sources */,
 				DEF3DD5624CAC7BD00D1A3A4 /* Resolution.swift in Sources */,
 				DEC96AD324ED1681001619CF /* ComicCell.swift in Sources */,
@@ -724,11 +806,15 @@
 				DEC96AE224EE03BC001619CF /* SubscribeViewController.swift in Sources */,
 				DEF3DCAF24C5733F00D1A3A4 /* HelloWorldViewController.swift in Sources */,
 				DEC96AF224EE066F001619CF /* SubscribeFooter.swift in Sources */,
+				DEC96B0B24EE2367001619CF /* MineCell.swift in Sources */,
+				DEC96B0724EE21BD001619CF /* MineController.swift in Sources */,
 				DEC96A8F24E61FFE001619CF /* TupleViewController.swift in Sources */,
+				DEC96B2024EE2ACD001619CF /* StringExtension.swift in Sources */,
 				DEC96A8B24E618BA001619CF /* ARCViewController.swift in Sources */,
 				DEF3DD4F24CAC75200D1A3A4 /* OptionalViewController.swift in Sources */,
 				DEC96AD824ED250F001619CF /* URefresh.swift in Sources */,
 				DEC96AF624EE06A8001619CF /* SubscribeCell.swift in Sources */,
+				DEC96B1C24EE2ACD001619CF /* UIBarButtonItemExtension.swift in Sources */,
 				DEF3DD5424CAC7BD00D1A3A4 /* StepCounter.swift in Sources */,
 				DEC96AEF24EE062A001619CF /* BaseCollectionReusableNib.swift in Sources */,
 				DEC96AAE24ECC38B001619CF /* JsonToObjectViewController.swift in Sources */,
@@ -738,6 +824,7 @@
 				DEF3DCC224C676B800D1A3A4 /* FunctionViewController.swift in Sources */,
 				DEF3DD4D24CAAFCB00D1A3A4 /* Person.swift in Sources */,
 				DEF3DCA924C56D8F00D1A3A4 /* BaseNavigationController.swift in Sources */,
+				DEC96B0E24EE240C001619CF /* MineHeaderView.swift in Sources */,
 				DEF3DC9C24C56CA500D1A3A4 /* SetupTabbar.swift in Sources */,
 				DEF3DD5724CAC7BD00D1A3A4 /* VideoMode.swift in Sources */,
 				DEA3130024D94ADB008BF13E /* MutatingViewController.swift in Sources */,
@@ -751,6 +838,7 @@
 				DEF3DC6D24C567E300D1A3A4 /* AppDelegate.swift in Sources */,
 				DEF3DD6624CAE59A00D1A3A4 /* Movie.swift in Sources */,
 				DEF3DCB324C586B600D1A3A4 /* RangeOperatorsViewController.swift in Sources */,
+				DEC96B1D24EE2ACD001619CF /* UIDeviceExtension.swift in Sources */,
 				DEF3DCBB24C5948A00D1A3A4 /* ArrayViewController.swift in Sources */,
 				DEF3DD5C24CAC9AC00D1A3A4 /* ClassMethodViewController.swift in Sources */,
 				DEF3DD5E24CACA1B00D1A3A4 /* ClassMethod.swift in Sources */,
@@ -765,7 +853,10 @@
 				DEA3130424D9582E008BF13E /* GenericsViewController.swift in Sources */,
 				DEC96AA824EBA303001619CF /* MoyaViewController.swift in Sources */,
 				DEC96ABA24ECCB59001619CF /* Global.swift in Sources */,
+				DEC96B1A24EE2ACD001619CF /* UIColorExtension.swift in Sources */,
 				DEF3DC6F24C567E300D1A3A4 /* SceneDelegate.swift in Sources */,
+				DEC96B1E24EE2ACD001619CF /* UIImageExtensions.swift in Sources */,
+				DEC96B1F24EE2ACD001619CF /* DispatchQueueExtension.swift in Sources */,
 				DEF3DD6024CAD4EB00D1A3A4 /* Residence.swift in Sources */,
 				DEF3DD6824CAE5CD00D1A3A4 /* Song.swift in Sources */,
 				DEC96ABE24ECF078001619CF /* BaseTableViewNibCell.swift in Sources */,
@@ -775,6 +866,7 @@
 				DEC96B0024EE133B001619CF /* SubscribeModel.swift in Sources */,
 				DEF3DCBF24C59AFD00D1A3A4 /* DictionaryViewController.swift in Sources */,
 				DEA3130224D94B0F008BF13E /* Area.swift in Sources */,
+				DEC96B1B24EE2ACD001619CF /* UIViewExtension.swift in Sources */,
 				DEF3DCB724C58FE700D1A3A4 /* StringViewController.swift in Sources */,
 				DEC96ADB24ED2665001619CF /* UEmptyDataSet.swift in Sources */,
 			);
